@@ -1,0 +1,3205 @@
+fileFormatVersion: 2
+guid: 34514efba6237bd4e966ee6ece75d795
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1307195680679912399
+    second: BG Walls_0
+  - first:
+      213: -4252549880050476630
+    second: BG Walls_1
+  - first:
+      213: 1278170515951504107
+    second: BG Walls_2
+  - first:
+      213: -6434441695318444462
+    second: BG Walls_0
+  - first:
+      213: 6985877541564978927
+    second: BG Walls_1
+  - first:
+      213: -4608325402919538114
+    second: BG Walls_2
+  - first:
+      213: 4928986712928436710
+    second: BG Walls_3
+  - first:
+      213: 6779166300242278389
+    second: BG Walls_4
+  - first:
+      213: -4632319925016520439
+    second: BG Walls_5
+  - first:
+      213: -6111846776051523241
+    second: BG Walls_6
+  - first:
+      213: -5547662992262459202
+    second: BG Walls_7
+  - first:
+      213: -6778035620189934551
+    second: BG Walls_8
+  - first:
+      213: -7391935070148840229
+    second: BG Walls_9
+  - first:
+      213: -1677710615474742598
+    second: BG Walls_10
+  - first:
+      213: 8609024535920496912
+    second: BG Walls_11
+  - first:
+      213: -4955358997203678424
+    second: BG Walls_12
+  - first:
+      213: 5809618594399911023
+    second: BG Walls_13
+  - first:
+      213: 5638141404529454267
+    second: BG Walls_14
+  - first:
+      213: -531986002644025722
+    second: BG Walls_15
+  - first:
+      213: 1184727322184535384
+    second: BG Walls_16
+  - first:
+      213: 2757771606297021787
+    second: BG Walls_17
+  - first:
+      213: 5871271499915502102
+    second: BG Walls_18
+  - first:
+      213: -6387766384829754829
+    second: BG Walls_19
+  - first:
+      213: -6240816128909780824
+    second: BG Walls_20
+  - first:
+      213: -1161291747260851048
+    second: BG Walls_21
+  - first:
+      213: -8981202660220424514
+    second: BG Walls_22
+  - first:
+      213: -7096995022846749370
+    second: BG Walls_23
+  - first:
+      213: 186339327032458308
+    second: BG Walls_24
+  - first:
+      213: -2294146794103863308
+    second: BG Walls_25
+  - first:
+      213: -2939058172395053448
+    second: BG Walls_26
+  - first:
+      213: -8367414169781040111
+    second: BG Walls_27
+  - first:
+      213: 842080234364050872
+    second: BG Walls_28
+  - first:
+      213: -2347821565025016600
+    second: BG Walls_29
+  - first:
+      213: 2507299404493322506
+    second: BG Walls_30
+  - first:
+      213: -5198663763804989361
+    second: BG Walls_31
+  - first:
+      213: 2812517762385868189
+    second: BG Walls_32
+  - first:
+      213: 2261786416380872829
+    second: BG Walls_33
+  - first:
+      213: -4024044966547260761
+    second: BG Walls_34
+  - first:
+      213: -5732233032857716277
+    second: BG Walls_35
+  - first:
+      213: 120016849347427567
+    second: BG Walls_36
+  - first:
+      213: 8160547942100216655
+    second: BG Walls_37
+  - first:
+      213: 8120976822729458477
+    second: BG Walls_38
+  - first:
+      213: -3585935338972855722
+    second: BG Walls_39
+  - first:
+      213: -1425788985129587503
+    second: BG Walls_40
+  - first:
+      213: 5789293167079753805
+    second: BG Walls_41
+  - first:
+      213: -7891137768092143841
+    second: BG Walls_42
+  - first:
+      213: -194649503850288513
+    second: BG Walls_43
+  - first:
+      213: -3196437286747622321
+    second: BG Walls_44
+  - first:
+      213: -1277289641614282095
+    second: BG Walls_45
+  - first:
+      213: -3253975761511319317
+    second: BG Walls_46
+  - first:
+      213: -4372149959995325134
+    second: BG Walls_47
+  - first:
+      213: 3226917265403841667
+    second: BG Walls_48
+  - first:
+      213: 2294532979096292908
+    second: BG Walls_49
+  - first:
+      213: 790049402138733751
+    second: BG Walls_50
+  - first:
+      213: 8905774496012875057
+    second: BG Walls_51
+  - first:
+      213: 5917084273793478618
+    second: BG Walls_52
+  - first:
+      213: 1234335099284566167
+    second: BG Walls_53
+  - first:
+      213: 6817646951475741108
+    second: BG Walls_54
+  - first:
+      213: 8371069191247364026
+    second: BG Walls_55
+  - first:
+      213: 5342608196609094581
+    second: BG Walls_56
+  - first:
+      213: -7211974294946047535
+    second: BG Walls_57
+  - first:
+      213: -1607198568308229776
+    second: BG Walls_58
+  - first:
+      213: -641101736164655402
+    second: BG Walls_59
+  - first:
+      213: 3151999039337295540
+    second: BG Walls_60
+  - first:
+      213: -2481236027176581127
+    second: BG Walls_61
+  - first:
+      213: -8345913340895642834
+    second: BG Walls_62
+  - first:
+      213: 6736047342259230286
+    second: BG Walls_63
+  - first:
+      213: 682798295683273706
+    second: BG Walls_64
+  - first:
+      213: 8281119320840535694
+    second: BG Walls_65
+  - first:
+      213: -4694108845272807897
+    second: BG Walls_66
+  - first:
+      213: 3875135922496899524
+    second: BG Walls_67
+  - first:
+      213: -4179900808985633202
+    second: BG Walls_68
+  - first:
+      213: -7576075462164731513
+    second: BG Walls_69
+  - first:
+      213: 3647066685180763367
+    second: BG Walls_70
+  - first:
+      213: -5699062723630368831
+    second: BG Walls_71
+  - first:
+      213: 6865841002422902262
+    second: BG Walls_72
+  - first:
+      213: -1893284649322469296
+    second: BG Walls_73
+  - first:
+      213: -2308929723436595540
+    second: BG Walls_74
+  - first:
+      213: -2267840752693009451
+    second: BG Walls_75
+  - first:
+      213: 2098792088949395387
+    second: BG Walls_76
+  - first:
+      213: -2410500367722020623
+    second: BG Walls_77
+  - first:
+      213: 6109738821341577627
+    second: BG Walls_78
+  - first:
+      213: -569235535812328518
+    second: BG Walls_79
+  - first:
+      213: 7791651366531932396
+    second: BG Walls_80
+  - first:
+      213: -4784586204139047715
+    second: BG Walls_81
+  - first:
+      213: 7206932864201997263
+    second: BG Walls_82
+  - first:
+      213: -7061412736916694238
+    second: BG Walls_83
+  - first:
+      213: -4848788214869084407
+    second: BG Walls_84
+  - first:
+      213: -6435339243528393912
+    second: BG Walls_85
+  - first:
+      213: -3021197990845978812
+    second: BG Walls_86
+  - first:
+      213: -4204167243563678002
+    second: BG Walls_87
+  - first:
+      213: 8531699553825482183
+    second: BG Walls_88
+  - first:
+      213: -7558095570944470189
+    second: BG Walls_89
+  - first:
+      213: 8281244641764068750
+    second: BG Walls_90
+  - first:
+      213: 8310855219597949407
+    second: BG Walls_91
+  - first:
+      213: -8278699485080392900
+    second: BG Walls_92
+  - first:
+      213: -8769442767624736963
+    second: BG Walls_93
+  - first:
+      213: -7667738700065161403
+    second: BG Walls_94
+  - first:
+      213: 7562263493969576984
+    second: BG Walls_95
+  - first:
+      213: -4094872733542158528
+    second: BG Walls_96
+  - first:
+      213: -8907628747397119215
+    second: BG Walls_97
+  - first:
+      213: 7595492514496190708
+    second: BG Walls_98
+  - first:
+      213: -7370543246497164901
+    second: BG Walls_99
+  - first:
+      213: 7446849216424700724
+    second: BG Walls_100
+  - first:
+      213: 642164635107657293
+    second: BG Walls_101
+  - first:
+      213: -7534174442924647290
+    second: BG Walls_102
+  - first:
+      213: 6183652692776162931
+    second: BG Walls_103
+  - first:
+      213: -6112836807654789183
+    second: BG Walls_104
+  - first:
+      213: 6924697018717776635
+    second: BG Walls_105
+  - first:
+      213: 7456894729019559865
+    second: BG Walls_106
+  - first:
+      213: -9105505091202220324
+    second: BG Walls_107
+  - first:
+      213: 7507965062772329903
+    second: BG Walls_108
+  - first:
+      213: 6915253542120987666
+    second: BG Walls_109
+  - first:
+      213: -2240022854390017954
+    second: BG Walls_110
+  - first:
+      213: -135526684436365872
+    second: BG Walls_111
+  - first:
+      213: -9085755399576185927
+    second: BG Walls_112
+  - first:
+      213: -5288799122211852646
+    second: BG Walls_113
+  - first:
+      213: -7487974124996627015
+    second: BG Walls_114
+  - first:
+      213: 728010514873338739
+    second: BG Walls_115
+  - first:
+      213: 5203214810012069397
+    second: BG Walls_116
+  - first:
+      213: -3971821875802862091
+    second: BG Walls_117
+  - first:
+      213: -6251687898172439595
+    second: BG Walls_118
+  - first:
+      213: 8628986186932989673
+    second: BG Walls_119
+  - first:
+      213: 8211764201590711600
+    second: BG Walls_120
+  - first:
+      213: 5786071642913408544
+    second: BG Walls_121
+  - first:
+      213: 4491035466803936902
+    second: BG Walls_122
+  - first:
+      213: 4744568726397257907
+    second: BG Walls_123
+  - first:
+      213: 7046580174354129578
+    second: BG Walls_124
+  - first:
+      213: -2173339558449198210
+    second: BG Walls_125
+  - first:
+      213: 8235651635159865418
+    second: BG Walls_126
+  - first:
+      213: -1428117870256619815
+    second: BG Walls_127
+  - first:
+      213: 4719118148793811467
+    second: BG Walls_128
+  - first:
+      213: -5994927875035991225
+    second: BG Walls_129
+  - first:
+      213: -5161381622558632906
+    second: BG Walls_130
+  - first:
+      213: -2928431484293518730
+    second: BG Walls_131
+  - first:
+      213: -5941972754503052856
+    second: BG Walls_132
+  - first:
+      213: -478841745306984597
+    second: BG Walls_133
+  - first:
+      213: 6348355887069047578
+    second: BG Walls_134
+  - first:
+      213: 1028514664557985261
+    second: BG Walls_135
+  - first:
+      213: 4775802147127667561
+    second: BG Walls_136
+  - first:
+      213: -319313264225980321
+    second: BG Walls_137
+  - first:
+      213: 4659111986606380509
+    second: BG Walls_138
+  - first:
+      213: 8938125800380503728
+    second: BG Walls_139
+  - first:
+      213: -8864681919426805441
+    second: BG Walls_140
+  - first:
+      213: -8916398022970589662
+    second: BG Walls_141
+  - first:
+      213: 6777078564651052566
+    second: BG Walls_142
+  - first:
+      213: -1743108532264450545
+    second: BG Walls_143
+  - first:
+      213: 8529587761851591073
+    second: BG Walls_144
+  - first:
+      213: -3946297705621457196
+    second: BG Walls_145
+  - first:
+      213: 802227655508319779
+    second: BG Walls_146
+  - first:
+      213: 7394742840531992932
+    second: BG Walls_147
+  - first:
+      213: -6804091275818873631
+    second: BG Walls_148
+  - first:
+      213: 1530803892031798352
+    second: BG Walls_149
+  - first:
+      213: 7216610172907343578
+    second: BG Walls_150
+  - first:
+      213: -1309877377112429224
+    second: BG Walls_151
+  - first:
+      213: 7588832706993628876
+    second: BG Walls_152
+  - first:
+      213: -3078040597131043396
+    second: BG Walls_153
+  - first:
+      213: 1319359560343896221
+    second: BG Walls_154
+  - first:
+      213: -8503560286628793474
+    second: BG Walls_155
+  - first:
+      213: 7572567504992668982
+    second: BG Walls_156
+  - first:
+      213: -1913541934573714689
+    second: BG Walls_157
+  - first:
+      213: 956376351815783152
+    second: BG Walls_158
+  - first:
+      213: -4336760765827236180
+    second: BG Walls_159
+  - first:
+      213: -5110497876476755676
+    second: BG Walls_160
+  - first:
+      213: -5611130260835403238
+    second: BG Walls_161
+  - first:
+      213: -5981405087504057527
+    second: BG Walls_162
+  - first:
+      213: -6623772968804008511
+    second: BG Walls_163
+  - first:
+      213: 5568356897034098818
+    second: BG Walls_164
+  - first:
+      213: -7846499093414684549
+    second: BG Walls_165
+  - first:
+      213: -7073267387219698564
+    second: BG Walls_166
+  - first:
+      213: 1090767539593993040
+    second: BG Walls_167
+  - first:
+      213: -5362272952199943791
+    second: BG Walls_168
+  - first:
+      213: -8230916160063844071
+    second: BG Walls_169
+  - first:
+      213: 5429881274979962490
+    second: BG Walls_170
+  - first:
+      213: 6063608408169429490
+    second: BG Walls_171
+  - first:
+      213: -2911764064799889006
+    second: BG Walls_172
+  - first:
+      213: 4742882419186103278
+    second: BG Walls_173
+  - first:
+      213: 9157591538390420785
+    second: BG Walls_174
+  - first:
+      213: 1846416995177225574
+    second: BG Walls_175
+  - first:
+      213: -2380360453606351995
+    second: BG Walls_176
+  - first:
+      213: -4273607561051052005
+    second: BG Walls_177
+  - first:
+      213: -2363473571319204463
+    second: BG Walls_178
+  - first:
+      213: 6593928739282813812
+    second: BG Walls_179
+  - first:
+      213: 4021613499309800839
+    second: BG Walls_180
+  - first:
+      213: -6883686205055204792
+    second: BG Walls_181
+  - first:
+      213: -6575729834871207784
+    second: BG Walls_182
+  - first:
+      213: 1690506829049374903
+    second: BG Walls_183
+  - first:
+      213: 5851369080331706232
+    second: BG Walls_184
+  - first:
+      213: 2816496188579781800
+    second: BG Walls_185
+  - first:
+      213: -8489188989333531848
+    second: BG Walls_186
+  - first:
+      213: -7974277299942463418
+    second: BG Walls_187
+  - first:
+      213: 7863228960300716129
+    second: BG Walls_188
+  - first:
+      213: -3475383015660076966
+    second: BG Walls_189
+  - first:
+      213: -7814639031984868699
+    second: BG Walls_190
+  - first:
+      213: 2413028630558366371
+    second: BG Walls_191
+  - first:
+      213: -4588987317963744468
+    second: BG Walls_192
+  - first:
+      213: -4014079491478696542
+    second: BG Walls_193
+  - first:
+      213: 6441314811347656578
+    second: BG Walls_194
+  - first:
+      213: -7256064122238640735
+    second: BG Walls_195
+  - first:
+      213: 4508049110909112910
+    second: BG Walls_196
+  - first:
+      213: -7420623872022501510
+    second: BG Walls_197
+  - first:
+      213: 7418233422862851489
+    second: BG Walls_198
+  - first:
+      213: 2329627284689604897
+    second: BG Walls_199
+  - first:
+      213: -4098572857120619477
+    second: BG Walls_200
+  - first:
+      213: -4180497970602674097
+    second: BG Walls_201
+  - first:
+      213: -8747657684445366399
+    second: BG Walls_202
+  - first:
+      213: 5184826043452691971
+    second: BG Walls_203
+  - first:
+      213: -2890712047063497497
+    second: BG Walls_204
+  - first:
+      213: 7728686281580994264
+    second: BG Walls_205
+  - first:
+      213: 1710054274099377921
+    second: BG Walls_206
+  - first:
+      213: -6602143437650618870
+    second: BG Walls_207
+  - first:
+      213: 3890410413010772056
+    second: BG Walls_208
+  - first:
+      213: 2885470403676929220
+    second: BG Walls_209
+  - first:
+      213: 8362914750843575184
+    second: BG Walls_210
+  - first:
+      213: 8435043820248874531
+    second: BG Walls_211
+  - first:
+      213: 4620780141168417996
+    second: BG Walls_212
+  - first:
+      213: -8449867440255526776
+    second: BG Walls_213
+  - first:
+      213: -5017652510974959888
+    second: BG Walls_214
+  - first:
+      213: -780235901741705664
+    second: BG Walls_215
+  - first:
+      213: 2254018418521374618
+    second: BG Walls_216
+  - first:
+      213: -767754841275841660
+    second: BG Walls_217
+  - first:
+      213: 2861901227692823111
+    second: BG Walls_218
+  - first:
+      213: 7248621784691545642
+    second: BG Walls_219
+  - first:
+      213: 1421930177923878320
+    second: BG Walls_220
+  - first:
+      213: 2460157838713546421
+    second: BG Walls_221
+  - first:
+      213: -1323508275661524176
+    second: BG Walls_222
+  - first:
+      213: -5878374871186301025
+    second: BG Walls_223
+  - first:
+      213: -1838510198040093935
+    second: BG Walls_224
+  - first:
+      213: 1450856507709468012
+    second: BG Walls_225
+  - first:
+      213: -796639048173163633
+    second: BG Walls_226
+  - first:
+      213: -3539422630539655688
+    second: BG Walls_227
+  - first:
+      213: -6590448109368360838
+    second: BG Walls_228
+  - first:
+      213: -9092185871986680365
+    second: BG Walls_229
+  - first:
+      213: -5767231957755916521
+    second: BG Walls_230
+  - first:
+      213: 5786753615273352094
+    second: BG Walls_231
+  - first:
+      213: -6095257227564153125
+    second: BG Walls_232
+  - first:
+      213: -3315603924407848325
+    second: BG Walls_233
+  - first:
+      213: 8287091569562307055
+    second: BG Walls_234
+  - first:
+      213: 4479536894131605229
+    second: BG Walls_235
+  - first:
+      213: -7086035486577948981
+    second: BG Walls_236
+  - first:
+      213: -4204063059485255144
+    second: BG Walls_237
+  - first:
+      213: 2486855721210463610
+    second: BG Walls_238
+  - first:
+      213: -8563240942963552999
+    second: BG Walls_239
+  - first:
+      213: 7402760829307296699
+    second: BG Walls_240
+  - first:
+      213: 5050896455774640531
+    second: BG Walls_241
+  - first:
+      213: -4674126165337533025
+    second: BG Walls_242
+  - first:
+      213: -5854524810049139909
+    second: BG Walls_243
+  - first:
+      213: 2109648176216859461
+    second: BG Walls_244
+  - first:
+      213: -4878191113491331997
+    second: BG Walls_245
+  - first:
+      213: 7492094410433951691
+    second: BG Walls_246
+  - first:
+      213: 7263502280585111154
+    second: BG Walls_247
+  - first:
+      213: 8015454040780451658
+    second: BG Walls_248
+  - first:
+      213: 5183781497182941846
+    second: BG Walls_249
+  - first:
+      213: -4176555039853710295
+    second: BG Walls_250
+  - first:
+      213: -2322621695733715272
+    second: BG Walls_251
+  - first:
+      213: -4033560205072903112
+    second: BG Walls_252
+  - first:
+      213: 2118128687189169081
+    second: BG Walls_253
+  - first:
+      213: 1794559591615744600
+    second: BG Walls_254
+  - first:
+      213: -8775662940047310520
+    second: BG Walls_255
+  - first:
+      213: -8133854522996875724
+    second: BG Walls_256
+  - first:
+      213: -2016389888033295922
+    second: BG Walls_257
+  - first:
+      213: -1695979666433496247
+    second: BG Walls_258
+  - first:
+      213: 5388801698336631379
+    second: BG Walls_259
+  - first:
+      213: 1897642905977087682
+    second: BG Walls_260
+  - first:
+      213: -299463209037259552
+    second: BG Walls_261
+  - first:
+      213: 7261174356291156034
+    second: BG Walls_262
+  - first:
+      213: -5994046795054583431
+    second: BG Walls_263
+  - first:
+      213: -5618424015358886123
+    second: BG Walls_264
+  - first:
+      213: 2607653553929066941
+    second: BG Walls_265
+  - first:
+      213: -8880024860243463899
+    second: BG Walls_266
+  - first:
+      213: 5337463550112233736
+    second: BG Walls_267
+  - first:
+      213: 2660833984832354985
+    second: BG Walls_268
+  - first:
+      213: 6533624501020879682
+    second: BG Walls_269
+  - first:
+      213: -2531118391741434839
+    second: BG Walls_270
+  - first:
+      213: 6537170874563476467
+    second: BG Walls_271
+  - first:
+      213: -3495579386655475090
+    second: BG Walls_272
+  - first:
+      213: -1964319944818759514
+    second: BG Walls_273
+  - first:
+      213: -7755608281122141774
+    second: BG Walls_274
+  - first:
+      213: 5713643474512823254
+    second: BG Walls_275
+  - first:
+      213: -5072264002705549915
+    second: BG Walls_276
+  - first:
+      213: -8487666277543461186
+    second: BG Walls_277
+  - first:
+      213: -3793622980196842435
+    second: BG Walls_278
+  - first:
+      213: 1761767754094702231
+    second: BG Walls_279
+  - first:
+      213: -536049034294498725
+    second: BG Walls_280
+  - first:
+      213: -6840993573602193867
+    second: BG Walls_281
+  - first:
+      213: 6033925552991514674
+    second: BG Walls_282
+  - first:
+      213: 5561607086499816220
+    second: BG Walls_283
+  - first:
+      213: 1486038904282779857
+    second: BG Walls_284
+  - first:
+      213: 621764826293122920
+    second: BG Walls_285
+  - first:
+      213: -5166341801642403765
+    second: BG Walls_286
+  - first:
+      213: 674273015034984401
+    second: BG Walls_287
+  - first:
+      213: 4401714745328217828
+    second: BG Walls_288
+  - first:
+      213: -754345459898794403
+    second: BG Walls_289
+  - first:
+      213: 3652610621930132655
+    second: BG Walls_290
+  - first:
+      213: -4248593218490486486
+    second: BG Walls_291
+  - first:
+      213: -552945660107958602
+    second: BG Walls_292
+  - first:
+      213: 1112719038774506579
+    second: BG Walls_293
+  - first:
+      213: -4888647862310301565
+    second: BG Walls_294
+  - first:
+      213: -4322111279731766516
+    second: BG Walls_295
+  - first:
+      213: -5357392370822690549
+    second: BG Walls_296
+  - first:
+      213: -2210426679983647193
+    second: BG Walls_297
+  - first:
+      213: -6675665287741168312
+    second: BG Walls_298
+  - first:
+      213: -7974587514885167574
+    second: BG Walls_299
+  - first:
+      213: -8769352293513324061
+    second: BG Walls_300
+  - first:
+      213: -6346516029880052507
+    second: BG Walls_301
+  - first:
+      213: 846454167183009573
+    second: BG Walls_302
+  - first:
+      213: -6365261111806879476
+    second: BG Walls_303
+  - first:
+      213: -377828466273565546
+    second: BG Walls_304
+  - first:
+      213: -6999425277799826771
+    second: BG Walls_305
+  - first:
+      213: 7668915455779669267
+    second: BG Walls_306
+  - first:
+      213: -8392854350903280041
+    second: BG Walls_307
+  - first:
+      213: -1608689830928170993
+    second: BG Walls_308
+  - first:
+      213: -1761060090413641817
+    second: BG Walls_309
+  - first:
+      213: 323767447445329660
+    second: BG Walls_310
+  - first:
+      213: 90036639787435661
+    second: BG Walls_311
+  - first:
+      213: -3031151598758739175
+    second: BG Walls_312
+  - first:
+      213: 5262260138195537626
+    second: BG Walls_313
+  - first:
+      213: 4306500325491496702
+    second: BG Walls_314
+  - first:
+      213: -5701236453633765598
+    second: BG Walls_315
+  - first:
+      213: -7052104647620996246
+    second: BG Walls_316
+  - first:
+      213: -7586261007689721575
+    second: BG Walls_317
+  - first:
+      213: 6950195104875809483
+    second: BG Walls_318
+  - first:
+      213: -7911795632650379915
+    second: BG Walls_319
+  - first:
+      213: -6806746901800447236
+    second: BG Walls_320
+  - first:
+      213: 6372062325100576360
+    second: BG Walls_321
+  - first:
+      213: -1423475453785630205
+    second: BG Walls_322
+  - first:
+      213: 3925483229023262879
+    second: BG Walls_323
+  - first:
+      213: -5951612019711098780
+    second: BG Walls_324
+  - first:
+      213: -6518641401469404350
+    second: BG Walls_325
+  - first:
+      213: 1707923765857627364
+    second: BG Walls_326
+  - first:
+      213: 3798476533036314195
+    second: BG Walls_327
+  - first:
+      213: -1554457422307846246
+    second: BG Walls_328
+  - first:
+      213: 249371355427025449
+    second: BG Walls_329
+  - first:
+      213: 2612639921660088744
+    second: BG Walls_330
+  - first:
+      213: 4658598266367739573
+    second: BG Walls_331
+  - first:
+      213: 3646534171871796571
+    second: BG Walls_332
+  - first:
+      213: -3735587084112441406
+    second: BG Walls_333
+  - first:
+      213: -8664855502433091106
+    second: BG Walls_334
+  - first:
+      213: -8904921851428256862
+    second: BG Walls_335
+  - first:
+      213: 2773572989981524202
+    second: BG Walls_336
+  - first:
+      213: 4793058900881708640
+    second: BG Walls_337
+  - first:
+      213: -202311582390567331
+    second: BG Walls_338
+  - first:
+      213: 3568564798111817986
+    second: BG Walls_339
+  - first:
+      213: -8631031544878359629
+    second: BG Walls_340
+  - first:
+      213: 7438699525351435625
+    second: BG Walls_341
+  - first:
+      213: 5397699707909865738
+    second: BG Walls_342
+  - first:
+      213: 8901534074143185166
+    second: BG Walls_343
+  - first:
+      213: 7822353812524061670
+    second: BG Walls_344
+  - first:
+      213: 5515580506117047985
+    second: BG Walls_345
+  - first:
+      213: 3870182661759584319
+    second: BG Walls_346
+  - first:
+      213: -5707442687822295652
+    second: BG Walls_347
+  - first:
+      213: -6176731755352146813
+    second: BG Walls_348
+  - first:
+      213: 2917209403689043030
+    second: BG Walls_349
+  - first:
+      213: 3191277109094731484
+    second: BG Walls_350
+  - first:
+      213: 6316477993246828362
+    second: BG Walls_351
+  - first:
+      213: -9167907064384260038
+    second: BG Walls_352
+  - first:
+      213: 7649052465982344043
+    second: BG Walls_353
+  - first:
+      213: -8630641338715486533
+    second: BG Walls_354
+  - first:
+      213: -1595423879930742511
+    second: BG Walls_355
+  - first:
+      213: -334640765150336472
+    second: BG Walls_356
+  - first:
+      213: -2140166178427237226
+    second: BG Walls_357
+  - first:
+      213: -7048228446622848172
+    second: BG Walls_358
+  - first:
+      213: -1475605625436048447
+    second: BG Walls_359
+  - first:
+      213: -3339602424911732299
+    second: BG Walls_360
+  - first:
+      213: 2616918141628409489
+    second: BG Walls_361
+  - first:
+      213: 7736042837738746498
+    second: BG Walls_362
+  - first:
+      213: 2195659384954826001
+    second: BG Walls_363
+  - first:
+      213: -7164398388604730806
+    second: BG Walls_364
+  - first:
+      213: 6875921944840628632
+    second: BG Walls_365
+  - first:
+      213: 8940753911993919938
+    second: BG Walls_366
+  - first:
+      213: 8195174495741853807
+    second: BG Walls_367
+  - first:
+      213: -5725213111368531661
+    second: BG Walls_368
+  - first:
+      213: -328786354951017519
+    second: BG Walls_369
+  - first:
+      213: 732224956548198707
+    second: BG Walls_370
+  - first:
+      213: 1657569739813694427
+    second: BG Walls_371
+  - first:
+      213: 8488059039663900579
+    second: BG Walls_372
+  - first:
+      213: 5674823849782807549
+    second: BG Walls_373
+  - first:
+      213: -6950289025765700604
+    second: BG Walls_374
+  - first:
+      213: 740818010576663652
+    second: BG Walls_375
+  - first:
+      213: 7260220914041601151
+    second: BG Walls_376
+  - first:
+      213: -3730808403372772468
+    second: BG Walls_377
+  - first:
+      213: -2445160702911475883
+    second: BG Walls_378
+  - first:
+      213: -8409038998463947734
+    second: BG Walls_379
+  - first:
+      213: 7183950828359618654
+    second: BG Walls_380
+  - first:
+      213: -5779936139077787448
+    second: BG Walls_381
+  - first:
+      213: -3083178579981247643
+    second: BG Walls_382
+  - first:
+      213: -8250819891121983708
+    second: BG Walls_383
+  - first:
+      213: -7683817835928335795
+    second: BG Walls_384
+  - first:
+      213: 8860369788263207175
+    second: BG Walls_385
+  - first:
+      213: 6484099431950106575
+    second: BG Walls_386
+  - first:
+      213: 1783643276666825172
+    second: BG Walls_387
+  - first:
+      213: 1227771543306749750
+    second: BG Walls_388
+  - first:
+      213: -4957096127379382096
+    second: BG Walls_389
+  - first:
+      213: -2328136282705779390
+    second: BG Walls_390
+  - first:
+      213: 5988376732464349142
+    second: BG Walls_391
+  - first:
+      213: 5548355121516811724
+    second: BG Walls_392
+  - first:
+      213: -8825583747490230270
+    second: BG Walls_393
+  - first:
+      213: 6416192982901456392
+    second: BG Walls_394
+  - first:
+      213: 1560961578835053755
+    second: BG Walls_395
+  - first:
+      213: 6046516069869954318
+    second: BG Walls_396
+  - first:
+      213: -416880328174093347
+    second: BG Walls_397
+  - first:
+      213: -375468707580259420
+    second: BG Walls_398
+  - first:
+      213: -2415965475347442374
+    second: BG Walls_399
+  - first:
+      213: 7023094409275559449
+    second: BG Walls_400
+  - first:
+      213: 6534803860638146140
+    second: BG Walls_401
+  - first:
+      213: -4883520853303396147
+    second: BG Walls_402
+  - first:
+      213: -7436573000115286319
+    second: BG Walls_403
+  - first:
+      213: -1088241204019309376
+    second: BG Walls_404
+  - first:
+      213: 7182071219311184046
+    second: BG Walls_405
+  - first:
+      213: -456332346557046471
+    second: BG Walls_406
+  - first:
+      213: -9018852500268714172
+    second: BG Walls_407
+  - first:
+      213: -428783817996344405
+    second: BG Walls_408
+  - first:
+      213: 1938333766244648035
+    second: BG Walls_409
+  - first:
+      213: -6435384272389865814
+    second: BG Walls_410
+  - first:
+      213: 6261390038749090150
+    second: BG Walls_411
+  - first:
+      213: -2634740470057887517
+    second: BG Walls_412
+  - first:
+      213: 135363009368915687
+    second: BG Walls_413
+  - first:
+      213: 6872233383432125334
+    second: BG Walls_414
+  - first:
+      213: 1440882287640191159
+    second: BG Walls_415
+  - first:
+      213: -7640895507106950963
+    second: BG Walls_416
+  - first:
+      213: 8869745945808223118
+    second: BG Walls_417
+  - first:
+      213: 5574488241850171850
+    second: BG Walls_418
+  - first:
+      213: 6002128462877400905
+    second: BG Walls_419
+  - first:
+      213: -7980798554542776379
+    second: BG Walls_420
+  - first:
+      213: 5757011081123305164
+    second: BG Walls_421
+  - first:
+      213: 8057580641706452690
+    second: BG Walls_422
+  - first:
+      213: 1786018769388313760
+    second: BG Walls_423
+  - first:
+      213: -4147839904585487122
+    second: BG Walls_424
+  - first:
+      213: 2150245961588533772
+    second: BG Walls_425
+  - first:
+      213: 6037131560814610340
+    second: BG Walls_426
+  - first:
+      213: -234037255648124353
+    second: BG Walls_427
+  - first:
+      213: -6795446661919763495
+    second: BG Walls_428
+  - first:
+      213: -2204637169074802701
+    second: BG Walls_429
+  - first:
+      213: -1885361611652189395
+    second: BG Walls_430
+  - first:
+      213: -7150917530686987269
+    second: BG Walls_431
+  - first:
+      213: 354055788848907755
+    second: BG Walls_432
+  - first:
+      213: 2127551780533751791
+    second: BG Walls_433
+  - first:
+      213: 1185644546983637929
+    second: BG Walls_434
+  - first:
+      213: -5689674265048381862
+    second: BG Walls_435
+  - first:
+      213: 1982895663100976029
+    second: BG Walls_436
+  - first:
+      213: 2827927235370393734
+    second: BG Walls_437
+  - first:
+      213: 7242961935295183727
+    second: BG Walls_438
+  - first:
+      213: -5251337057696059200
+    second: BG Walls_439
+  - first:
+      213: 2607684265827629710
+    second: BG Walls_440
+  - first:
+      213: -639949528967166487
+    second: BG Walls_441
+  - first:
+      213: -5287590315951485219
+    second: BG Walls_442
+  - first:
+      213: 2151208455286063259
+    second: BG Walls_443
+  - first:
+      213: 1095187698813371007
+    second: BG Walls_444
+  - first:
+      213: 3473370875457132839
+    second: BG Walls_445
+  - first:
+      213: -7195510391325492389
+    second: BG Walls_446
+  - first:
+      213: -4017971624576482515
+    second: BG Walls_447
+  - first:
+      213: -7980322351562666524
+    second: BG Walls_448
+  - first:
+      213: -3520416864575772178
+    second: BG Walls_449
+  - first:
+      213: 173832542444097102
+    second: BG Walls_450
+  - first:
+      213: -4955106932459240584
+    second: BG Walls_451
+  - first:
+      213: 7746864702476359334
+    second: BG Walls_452
+  - first:
+      213: 5253752507255098135
+    second: BG Walls_453
+  - first:
+      213: 8049390788490582692
+    second: BG Walls_454
+  - first:
+      213: -2163282785222867983
+    second: BG Walls_455
+  - first:
+      213: 3246535349666704995
+    second: BG Walls_456
+  - first:
+      213: -5342610158973846296
+    second: BG Walls_457
+  - first:
+      213: 1807077961823421143
+    second: BG Walls_458
+  - first:
+      213: 1210350014350084282
+    second: BG Walls_459
+  - first:
+      213: 7624188837270675694
+    second: BG Walls_460
+  - first:
+      213: -1891516499614075488
+    second: BG Walls_461
+  - first:
+      213: -1433167345201477995
+    second: BG Walls_462
+  - first:
+      213: 5439983804935464842
+    second: BG Walls_463
+  - first:
+      213: 810441296419080210
+    second: BG Walls_464
+  - first:
+      213: 5582316427482872756
+    second: BG Walls_465
+  - first:
+      213: -5276187517734207445
+    second: BG Walls_466
+  - first:
+      213: 3475530224046108843
+    second: BG Walls_467
+  - first:
+      213: -128669635148865496
+    second: BG Walls_468
+  - first:
+      213: 8029463845464376596
+    second: BG Walls_469
+  - first:
+      213: -3894798116122496692
+    second: BG Walls_470
+  - first:
+      213: -3854397030812879702
+    second: BG Walls_471
+  - first:
+      213: 6592635057384448703
+    second: BG Walls_472
+  - first:
+      213: -5963453245108835253
+    second: BG Walls_473
+  - first:
+      213: 6553185171682237822
+    second: BG Walls_474
+  - first:
+      213: 8341772616027759208
+    second: BG Walls_475
+  - first:
+      213: 6008605302265987845
+    second: BG Walls_476
+  - first:
+      213: 5832625918158946716
+    second: BG Walls_477
+  - first:
+      213: 470936451501376378
+    second: BG Walls_478
+  - first:
+      213: -3380192981958689144
+    second: BG Walls_479
+  - first:
+      213: 7872209383922131255
+    second: BG Walls_480
+  - first:
+      213: -578171230595377282
+    second: BG Walls_481
+  - first:
+      213: 4837286547623692674
+    second: BG Walls_482
+  - first:
+      213: 4657506996455768413
+    second: BG Walls_483
+  - first:
+      213: -8622260677692225459
+    second: BG Walls_484
+  - first:
+      213: -4802820148196277024
+    second: BG Walls_485
+  - first:
+      213: 7426453882506115672
+    second: BG Walls_486
+  - first:
+      213: -1451456423597656267
+    second: BG Walls_487
+  - first:
+      213: -8854818370717592494
+    second: BG Walls_488
+  - first:
+      213: -8209203788272667277
+    second: BG Walls_489
+  - first:
+      213: -4976343903830141395
+    second: BG Walls_490
+  - first:
+      213: -6601636503301108345
+    second: BG Walls_491
+  - first:
+      213: 8767885695718414219
+    second: BG Walls_492
+  - first:
+      213: 2585246952716080518
+    second: BG Walls_493
+  - first:
+      213: -9127705211403506709
+    second: BG Walls_494
+  - first:
+      213: -6747008564419027327
+    second: BG Walls_495
+  - first:
+      213: 7361347857958367357
+    second: BG Walls_496
+  - first:
+      213: 7473036772129757612
+    second: BG Walls_497
+  - first:
+      213: -7633219143348565304
+    second: BG Walls_498
+  - first:
+      213: -8256810228206871514
+    second: BG Walls_499
+  - first:
+      213: 8540129313294072794
+    second: BG Walls_500
+  - first:
+      213: -112027425870044724
+    second: BG Walls_501
+  - first:
+      213: 7139026650716580191
+    second: BG Walls_502
+  - first:
+      213: -1543413798500060741
+    second: BG Walls_503
+  - first:
+      213: 8508423243066326643
+    second: BG Walls_504
+  - first:
+      213: -3912163688771690166
+    second: BG Walls_505
+  - first:
+      213: -3444986371711289638
+    second: BG Walls_506
+  - first:
+      213: -1178593007319259741
+    second: BG Walls_507
+  - first:
+      213: -6033958713541925367
+    second: BG Walls_508
+  - first:
+      213: 2170542338951401056
+    second: BG Walls_509
+  - first:
+      213: -4688691988746557366
+    second: BG Walls_510
+  - first:
+      213: -7800475565342237669
+    second: BG Walls_511
+  - first:
+      213: 6061035734928646908
+    second: BG Walls_512
+  - first:
+      213: 4227631265268260871
+    second: BG Walls_513
+  - first:
+      213: -7626156077606765432
+    second: BG Walls_514
+  - first:
+      213: 3172624831577018709
+    second: BG Walls_515
+  - first:
+      213: -4552033712982712104
+    second: BG Walls_516
+  - first:
+      213: 4846367250215149197
+    second: BG Walls_517
+  - first:
+      213: -4529051165157491175
+    second: BG Walls_518
+  - first:
+      213: -1697938360937158839
+    second: BG Walls_519
+  - first:
+      213: 6841713585799839499
+    second: BG Walls_520
+  - first:
+      213: -3368453960867272794
+    second: BG Walls_521
+  - first:
+      213: -8327109522625512962
+    second: BG Walls_522
+  - first:
+      213: 3853355749948072337
+    second: BG Walls_523
+  - first:
+      213: 1726530056022315999
+    second: BG Walls_524
+  - first:
+      213: 4679946463557647920
+    second: BG Walls_525
+  - first:
+      213: 2451306967729000412
+    second: BG Walls_526
+  - first:
+      213: 490423812741417923
+    second: BG Walls_527
+  - first:
+      213: -3139067689112488550
+    second: BG Walls_528
+  - first:
+      213: 1913163650204550380
+    second: BG Walls_529
+  - first:
+      213: 4865435922525211048
+    second: BG Walls_530
+  - first:
+      213: -2293294262156143570
+    second: BG Walls_531
+  - first:
+      213: 3180679152927537050
+    second: BG Walls_532
+  - first:
+      213: 5115933486366122795
+    second: BG Walls_533
+  - first:
+      213: 1295832383573592174
+    second: BG Walls_534
+  - first:
+      213: 1206405578602280671
+    second: BG Walls_535
+  - first:
+      213: -316841525840503628
+    second: BG Walls_536
+  - first:
+      213: 2662632710245393263
+    second: BG Walls_537
+  - first:
+      213: 7215504703844030665
+    second: BG Walls_538
+  - first:
+      213: 7386097214314789324
+    second: BG Walls_539
+  - first:
+      213: 4715534719370845158
+    second: BG Walls_540
+  - first:
+      213: 7061916218367079031
+    second: BG Walls_541
+  - first:
+      213: -5290138067772270259
+    second: BG Walls_542
+  - first:
+      213: 8128198165213014895
+    second: BG Walls_543
+  - first:
+      213: -7397170224091782935
+    second: BG Walls_544
+  - first:
+      213: 5884946195570541102
+    second: BG Walls_545
+  - first:
+      213: -7160821799602558466
+    second: BG Walls_546
+  - first:
+      213: -1011421743202211723
+    second: BG Walls_547
+  - first:
+      213: 5052007433267687446
+    second: BG Walls_548
+  - first:
+      213: -8347880612363587667
+    second: BG Walls_549
+  - first:
+      213: 6005396222476942557
+    second: BG Walls_550
+  - first:
+      213: -8817450272804233805
+    second: BG Walls_551
+  - first:
+      213: 7638258013672093034
+    second: BG Walls_552
+  - first:
+      213: 4700636520131378226
+    second: BG Walls_553
+  - first:
+      213: 6956183229307599229
+    second: BG Walls_554
+  - first:
+      213: -2383111673102868243
+    second: BG Walls_555
+  - first:
+      213: 7799741278609804265
+    second: BG Walls_556
+  - first:
+      213: 4885492975289148286
+    second: BG Walls_557
+  - first:
+      213: -7069695233003936779
+    second: BG Walls_558
+  - first:
+      213: 7445829767474752567
+    second: BG Walls_559
+  - first:
+      213: -116615006522270762
+    second: BG Walls_560
+  - first:
+      213: 1512704298647417387
+    second: BG Walls_561
+  - first:
+      213: 1308725556457157046
+    second: BG Walls_562
+  - first:
+      213: -6492822903112332378
+    second: BG Walls_563
+  - first:
+      213: -5802386533640249537
+    second: BG Walls_564
+  - first:
+      213: -3185194171592667627
+    second: BG Walls_565
+  - first:
+      213: -3538722491475224083
+    second: BG Walls_566
+  - first:
+      213: 1428186987490683225
+    second: BG Walls_567
+  - first:
+      213: -1430926728749067446
+    second: BG Walls_568
+  - first:
+      213: 72809018565902413
+    second: BG Walls_569
+  - first:
+      213: 8786360341046966984
+    second: BG Walls_570
+  - first:
+      213: -8935555051126709524
+    second: BG Walls_571
+  - first:
+      213: -7056909959698625886
+    second: BG Walls_572
+  - first:
+      213: 6227248918361743485
+    second: BG Walls_573
+  - first:
+      213: 3794661865337279492
+    second: BG Walls_574
+  - first:
+      213: 983100251343116476
+    second: BG Walls_575
+  - first:
+      213: -7642208112934738047
+    second: BG Walls_576
+  - first:
+      213: 8596604503178946585
+    second: BG Walls_577
+  - first:
+      213: -6871890103949939332
+    second: BG Walls_578
+  - first:
+      213: 3234709770443591742
+    second: BG Walls_579
+  - first:
+      213: 5658224641838977382
+    second: BG Walls_580
+  - first:
+      213: -7658681407240737548
+    second: BG Walls_581
+  - first:
+      213: 5603735773921177210
+    second: BG Walls_582
+  - first:
+      213: -2129287552280219794
+    second: BG Walls_583
+  - first:
+      213: 3083964826711825473
+    second: BG Walls_584
+  - first:
+      213: -8630367865582894251
+    second: BG Walls_585
+  - first:
+      213: -73243258149372622
+    second: BG Walls_586
+  - first:
+      213: -5218614145741338298
+    second: BG Walls_587
+  - first:
+      213: -9166534713916001797
+    second: BG Walls_588
+  - first:
+      213: 7560940431086761393
+    second: BG Walls_589
+  - first:
+      213: 3924595857005174426
+    second: BG Walls_590
+  - first:
+      213: 3533871561553989961
+    second: BG Walls_591
+  - first:
+      213: -4091360373592613347
+    second: BG Walls_592
+  - first:
+      213: 62552003765255003
+    second: BG Walls_593
+  - first:
+      213: -8621256338853236808
+    second: BG Walls_594
+  - first:
+      213: 4421838521925868544
+    second: BG Walls_595
+  - first:
+      213: -8882364930731147729
+    second: BG Walls_596
+  - first:
+      213: 1231507685633557336
+    second: BG Walls_597
+  - first:
+      213: -5560894272305536095
+    second: BG Walls_598
+  - first:
+      213: -163352094202530914
+    second: BG Walls_599
+  - first:
+      213: 4185445375155353035
+    second: BG Walls_600
+  - first:
+      213: 2794478179076453094
+    second: BG Walls_601
+  - first:
+      213: 5078372358690894183
+    second: BG Walls_602
+  - first:
+      213: -4947039043103094997
+    second: BG Walls_603
+  - first:
+      213: -502196684725887814
+    second: BG Walls_604
+  - first:
+      213: 4594028344943707580
+    second: BG Walls_605
+  - first:
+      213: 8206459035872204112
+    second: BG Walls_606
+  - first:
+      213: 3873896980134035806
+    second: BG Walls_607
+  - first:
+      213: 5927634942565480952
+    second: BG Walls_608
+  - first:
+      213: -4014932707002488474
+    second: BG Walls_609
+  - first:
+      213: 546157822160191502
+    second: BG Walls_610
+  - first:
+      213: -4965674125656951503
+    second: BG Walls_611
+  - first:
+      213: 1322605713148307260
+    second: BG Walls_612
+  - first:
+      213: 4158817333441938533
+    second: BG Walls_613
+  - first:
+      213: 7684453455998234617
+    second: BG Walls_614
+  - first:
+      213: 1192013067662906089
+    second: BG Walls_615
+  - first:
+      213: -4481182747757359768
+    second: BG Walls_616
+  - first:
+      213: 2886992043433383547
+    second: BG Walls_617
+  - first:
+      213: -6831013498400864705
+    second: BG Walls_618
+  - first:
+      213: 6730603390393617844
+    second: BG Walls_619
+  - first:
+      213: 5461134433676563902
+    second: BG Walls_620
+  - first:
+      213: -4539218333911477743
+    second: BG Walls_621
+  - first:
+      213: 4172453157695405077
+    second: BG Walls_622
+  - first:
+      213: -5999630681971124819
+    second: BG Walls_623
+  - first:
+      213: -8564956977716251087
+    second: BG Walls_624
+  - first:
+      213: -4480169121247144327
+    second: BG Walls_625
+  - first:
+      213: 4932578104593022150
+    second: BG Walls_626
+  - first:
+      213: 2934075880244194080
+    second: BG Walls_627
+  - first:
+      213: 7904541238432162300
+    second: BG Walls_628
+  - first:
+      213: 4177109146650912436
+    second: BG Walls_629
+  - first:
+      213: -6255210999614938622
+    second: BG Walls_630
+  - first:
+      213: -3321786566884701175
+    second: BG Walls_631
+  - first:
+      213: 1350547778899479342
+    second: BG Walls_632
+  - first:
+      213: 5122919983214806303
+    second: BG Walls_633
+  - first:
+      213: -2653507469721115435
+    second: BG Walls_634
+  - first:
+      213: -2929708811197162749
+    second: BG Walls_635
+  - first:
+      213: -6857152347964226279
+    second: BG Walls_636
+  - first:
+      213: -5673503176279375555
+    second: BG Walls_637
+  - first:
+      213: 6845431162008433664
+    second: BG Walls_638
+  - first:
+      213: -4268723558219802130
+    second: BG Walls_639
+  - first:
+      213: -8406029342099255412
+    second: BG Walls_640
+  - first:
+      213: 445073575375316300
+    second: BG Walls_641
+  - first:
+      213: -4851446841722096628
+    second: BG Walls_642
+  - first:
+      213: 6706654952029940989
+    second: BG Walls_643
+  - first:
+      213: 3068810291027234711
+    second: BG Walls_644
+  - first:
+      213: -3931963192971519999
+    second: BG Walls_645
+  - first:
+      213: 9153544964233972265
+    second: BG Walls_646
+  - first:
+      213: -5313962034752339222
+    second: BG Walls_647
+  - first:
+      213: -743890158495637286
+    second: BG Walls_648
+  - first:
+      213: -4046734579733645312
+    second: BG Walls_649
+  - first:
+      213: -8329764996365898381
+    second: BG Walls_650
+  - first:
+      213: -4144713854430224315
+    second: BG Walls_651
+  - first:
+      213: -3932567239564821626
+    second: BG Walls_652
+  - first:
+      213: 3466626311706659524
+    second: BG Walls_653
+  - first:
+      213: 6164605103969846664
+    second: BG Walls_654
+  - first:
+      213: 1363274186564932257
+    second: BG Walls_655
+  - first:
+      213: 6635734210750087077
+    second: BG Walls_656
+  - first:
+      213: 8748908566849690256
+    second: BG Walls_657
+  - first:
+      213: 7453505051686303093
+    second: BG Walls_658
+  - first:
+      213: -8343819868762250692
+    second: BG Walls_659
+  - first:
+      213: -2656639036234176805
+    second: BG Walls_660
+  - first:
+      213: 1963948597720361838
+    second: BG Walls_661
+  - first:
+      213: -2639292247938497971
+    second: BG Walls_662
+  - first:
+      213: 4374355862123418786
+    second: BG Walls_663
+  - first:
+      213: -6405989983386237286
+    second: BG Walls_664
+  - first:
+      213: -5565160825687141245
+    second: BG Walls_665
+  - first:
+      213: -5922196199029087223
+    second: BG Walls_666
+  - first:
+      213: -4200139031170321769
+    second: BG Walls_667
+  - first:
+      213: -6563137678599498333
+    second: BG Walls_668
+  - first:
+      213: -8279429503173443478
+    second: BG Walls_669
+  - first:
+      213: -6833801224527460444
+    second: BG Walls_670
+  - first:
+      213: -8939893081214313609
+    second: BG Walls_671
+  - first:
+      213: -9012413980777407399
+    second: BG Walls_672
+  - first:
+      213: 2790648783070636990
+    second: BG Walls_673
+  - first:
+      213: -1429242351247472481
+    second: BG Walls_674
+  - first:
+      213: 7372379625629952631
+    second: BG Walls_675
+  - first:
+      213: 4768941704695959580
+    second: BG Walls_676
+  - first:
+      213: 3232511764881422862
+    second: BG Walls_677
+  - first:
+      213: 5677738309374707068
+    second: BG Walls_678
+  - first:
+      213: -3825179513967561911
+    second: BG Walls_679
+  - first:
+      213: 7507868225231504186
+    second: BG Walls_680
+  - first:
+      213: -6932156145933256115
+    second: BG Walls_681
+  - first:
+      213: 8424560773379804004
+    second: BG Walls_682
+  - first:
+      213: -6389622165834435869
+    second: BG Walls_683
+  - first:
+      213: -474119432967787301
+    second: BG Walls_684
+  - first:
+      213: -3031364486477918184
+    second: BG Walls_685
+  - first:
+      213: 8100196413863794428
+    second: BG Walls_686
+  - first:
+      213: -2811312327201180439
+    second: BG Walls_687
+  - first:
+      213: -5815078956534685070
+    second: BG Walls_688
+  - first:
+      213: 175673052556965025
+    second: BG Walls_689
+  - first:
+      213: -1051335792761603223
+    second: BG Walls_690
+  - first:
+      213: -9092298822788122545
+    second: BG Walls_691
+  - first:
+      213: 4385930540054552492
+    second: BG Walls_692
+  - first:
+      213: -1790418250134088964
+    second: BG Walls_693
+  - first:
+      213: 4829996518531716959
+    second: BG Walls_694
+  - first:
+      213: 2231584127206558047
+    second: BG Walls_695
+  - first:
+      213: -7507193665463919250
+    second: BG Walls_696
+  - first:
+      213: -556755771896265774
+    second: BG Walls_697
+  - first:
+      213: -470149182404013570
+    second: BG Walls_698
+  - first:
+      213: -9187374159587358366
+    second: BG Walls_699
+  - first:
+      213: -4324519517835833279
+    second: BG Walls_700
+  - first:
+      213: 8727516243241091262
+    second: BG Walls_701
+  - first:
+      213: -3528512569197658990
+    second: BG Walls_702
+  - first:
+      213: -1940926449230909093
+    second: BG Walls_703
+  - first:
+      213: 3911699682349350238
+    second: BG Walls_704
+  - first:
+      213: 3425734104664599152
+    second: BG Walls_705
+  - first:
+      213: 6600802110843730393
+    second: BG Walls_706
+  - first:
+      213: -4476202545234073651
+    second: BG Walls_707
+  - first:
+      213: -2634211643085180643
+    second: BG Walls_708
+  - first:
+      213: -3759348819638058408
+    second: BG Walls_709
+  - first:
+      213: -8815993687323893590
+    second: BG Walls_710
+  - first:
+      213: -7575208093609684464
+    second: BG Walls_711
+  - first:
+      213: -5133803079012598161
+    second: BG Walls_712
+  - first:
+      213: -5144296084025061576
+    second: BG Walls_713
+  - first:
+      213: -6945506414963240012
+    second: BG Walls_714
+  - first:
+      213: 5662420176190613285
+    second: BG Walls_715
+  - first:
+      213: 8111335503290422175
+    second: BG Walls_716
+  - first:
+      213: 450412656531467872
+    second: BG Walls_717
+  - first:
+      213: -3527502910052302172
+    second: BG Walls_718
+  - first:
+      213: -5015020805049608833
+    second: BG Walls_719
+  - first:
+      213: -6176383340664412653
+    second: BG Walls_720
+  - first:
+      213: -6107666286438740
+    second: BG Walls_721
+  - first:
+      213: -3447845502072285750
+    second: BG Walls_722
+  - first:
+      213: 6842910239377002859
+    second: BG Walls_723
+  - first:
+      213: 8842736589406973921
+    second: BG Walls_724
+  - first:
+      213: 2874968236973934617
+    second: BG Walls_725
+  - first:
+      213: -1679855868549510000
+    second: BG Walls_726
+  - first:
+      213: 7541406047671897317
+    second: BG Walls_727
+  - first:
+      213: 3830140838079700576
+    second: BG Walls_728
+  - first:
+      213: -4491626884867057850
+    second: BG Walls_729
+  - first:
+      213: -1437505664568195526
+    second: BG Walls_730
+  - first:
+      213: 1689024509379556499
+    second: BG Walls_731
+  - first:
+      213: -5289585964210904055
+    second: BG Walls_732
+  - first:
+      213: 7155632796758188531
+    second: BG Walls_733
+  - first:
+      213: 5250593455227565821
+    second: BG Walls_734
+  - first:
+      213: 8174948068882452462
+    second: BG Walls_735
+  - first:
+      213: -1751242098320146956
+    second: BG Walls_736
+  - first:
+      213: 4415956432511351792
+    second: BG Walls_737
+  - first:
+      213: 415241092267389056
+    second: BG Walls_738
+  - first:
+      213: -7293361179322060910
+    second: BG Walls_739
+  - first:
+      213: -2841117809906024533
+    second: BG Walls_740
+  - first:
+      213: 3385454114242952327
+    second: BG Walls_741
+  - first:
+      213: -7297203561977025893
+    second: BG Walls_742
+  - first:
+      213: -4871532145914460860
+    second: BG Walls_743
+  - first:
+      213: -7646665139651266251
+    second: BG Walls_744
+  - first:
+      213: 2576790801114469219
+    second: BG Walls_745
+  - first:
+      213: 167155721174678930
+    second: BG Walls_746
+  - first:
+      213: -4143547670370714002
+    second: BG Walls_747
+  - first:
+      213: -6707766794478089315
+    second: BG Walls_748
+  - first:
+      213: 1093362121859099763
+    second: BG Walls_749
+  - first:
+      213: -1525980690200779457
+    second: BG Walls_750
+  - first:
+      213: 1705354447263967050
+    second: BG Walls_751
+  - first:
+      213: 2186473616038000931
+    second: BG Walls_752
+  - first:
+      213: -6664871224161039726
+    second: BG Walls_753
+  - first:
+      213: -4254995450670265334
+    second: BG Walls_754
+  - first:
+      213: -7629569344251501786
+    second: BG Walls_755
+  - first:
+      213: -1180956262528783465
+    second: BG Walls_756
+  - first:
+      213: -6256715394932840938
+    second: BG Walls_757
+  - first:
+      213: 7726197102141161917
+    second: BG Walls_758
+  - first:
+      213: 4011427621432571990
+    second: BG Walls_759
+  - first:
+      213: 6631357707937695936
+    second: BG Walls_760
+  - first:
+      213: 3325119211252401599
+    second: BG Walls_761
+  - first:
+      213: -2715030889458465592
+    second: BG Walls_762
+  - first:
+      213: -6397929846426795138
+    second: BG Walls_763
+  - first:
+      213: 7945981740743910071
+    second: BG Walls_764
+  - first:
+      213: 3579215160421492064
+    second: BG Walls_765
+  - first:
+      213: 8639397490001733266
+    second: BG Walls_766
+  - first:
+      213: 1125416218205042161
+    second: BG Walls_767
+  - first:
+      213: 4623606503384011619
+    second: BG Walls_768
+  - first:
+      213: -4592395651748792538
+    second: BG Walls_769
+  - first:
+      213: -5569701724798032965
+    second: BG Walls_770
+  - first:
+      213: 3050005372521067582
+    second: BG Walls_771
+  - first:
+      213: -7843483799242237999
+    second: BG Walls_772
+  - first:
+      213: -2301648672154415102
+    second: BG Walls_773
+  - first:
+      213: 8246167382417360839
+    second: BG Walls_774
+  - first:
+      213: -5110249787650862164
+    second: BG Walls_775
+  - first:
+      213: 1282286111973495095
+    second: BG Walls_776
+  - first:
+      213: -3562538908425676901
+    second: BG Walls_777
+  - first:
+      213: -1858566542523854313
+    second: BG Walls_778
+  - first:
+      213: -1843093665539072174
+    second: BG Walls_779
+  - first:
+      213: -3141355211798347357
+    second: BG Walls_780
+  - first:
+      213: -5624325325684236216
+    second: BG Walls_781
+  - first:
+      213: 4900078071862127357
+    second: BG Walls_782
+  - first:
+      213: 639676412122243005
+    second: BG Walls_783
+  - first:
+      213: 2158401725564486306
+    second: BG Walls_784
+  - first:
+      213: -1854597393160447344
+    second: BG Walls_785
+  - first:
+      213: 4064176158824095743
+    second: BG Walls_786
+  - first:
+      213: 7135290513667102222
+    second: BG Walls_787
+  - first:
+      213: -2394149446381617374
+    second: BG Walls_788
+  - first:
+      213: -7489693757136680244
+    second: BG Walls_789
+  - first:
+      213: 4111908401214269103
+    second: BG Walls_790
+  - first:
+      213: 4501756099590299809
+    second: BG Walls_791
+  - first:
+      213: 122587629849738441
+    second: BG Walls_792
+  - first:
+      213: -3507900209677599172
+    second: BG Walls_793
+  - first:
+      213: 2551605655656250085
+    second: BG Walls_794
+  - first:
+      213: 4161585455964668861
+    second: BG Walls_795
+  - first:
+      213: -3048824177355131856
+    second: BG Walls_796
+  - first:
+      213: 8282586911805678606
+    second: BG Walls_797
+  - first:
+      213: -3883392988400493124
+    second: BG Walls_798
+  - first:
+      213: 7057648635154254975
+    second: BG Walls_799
+  - first:
+      213: 877647778925686194
+    second: BG Walls_800
+  - first:
+      213: -7977278162990163456
+    second: BG Walls_801
+  - first:
+      213: 5607163464077341715
+    second: BG Walls_802
+  - first:
+      213: -4528691720465083885
+    second: BG Walls_803
+  - first:
+      213: -408748669790542185
+    second: BG Walls_804
+  - first:
+      213: -8744718123179472834
+    second: BG Walls_805
+  - first:
+      213: -3304422096407944889
+    second: BG Walls_806
+  - first:
+      213: -4521711227491013127
+    second: BG Walls_807
+  - first:
+      213: 8029220631630790177
+    second: BG Walls_808
+  - first:
+      213: -2719576132498083535
+    second: BG Walls_809
+  - first:
+      213: 4444409853842363831
+    second: BG Walls_810
+  - first:
+      213: 1370872307310579647
+    second: BG Walls_811
+  - first:
+      213: -2422418873114506624
+    second: BG Walls_812
+  - first:
+      213: 7754569329052329965
+    second: BG Walls_813
+  - first:
+      213: 5461080566692640904
+    second: BG Walls_814
+  - first:
+      213: -8190804904996666040
+    second: BG Walls_815
+  - first:
+      213: -4891258479018730071
+    second: BG Walls_816
+  - first:
+      213: 3895180817890839121
+    second: BG Walls_817
+  - first:
+      213: 5788184190189855402
+    second: BG Walls_818
+  - first:
+      213: 2418283175816920128
+    second: BG Walls_819
+  - first:
+      213: 7924878363888361680
+    second: BG Walls_820
+  - first:
+      213: -6349547641000947528
+    second: BG Walls_821
+  - first:
+      213: 6378655489509324603
+    second: BG Walls_822
+  - first:
+      213: 6602317285630463861
+    second: BG Walls_823
+  - first:
+      213: -3257228320112625853
+    second: BG Walls_824
+  - first:
+      213: -7647635976521878527
+    second: BG Walls_825
+  - first:
+      213: 8336769244566650851
+    second: BG Walls_826
+  - first:
+      213: 6157347338384416535
+    second: BG Walls_827
+  - first:
+      213: -425414506291176398
+    second: BG Walls_828
+  - first:
+      213: 3302167303125270641
+    second: BG Walls_829
+  - first:
+      213: 3384423128478318990
+    second: BG Walls_830
+  - first:
+      213: -6858691977039179521
+    second: BG Walls_831
+  - first:
+      213: -5220773739336244358
+    second: BG Walls_832
+  - first:
+      213: 8234930014616224800
+    second: BG Walls_833
+  - first:
+      213: -2294615267194727144
+    second: BG Walls_834
+  - first:
+      213: 2539452702419219024
+    second: BG Walls_835
+  - first:
+      213: -2000527991219828802
+    second: BG Walls_836
+  - first:
+      213: 2955924837568268657
+    second: BG Walls_837
+  - first:
+      213: 214181469367727514
+    second: BG Walls_838
+  - first:
+      213: -1438972925060082245
+    second: BG Walls_839
+  - first:
+      213: 7506556024920801583
+    second: BG Walls_840
+  - first:
+      213: 1700993632913094107
+    second: BG Walls_841
+  - first:
+      213: -5817257205648360987
+    second: BG Walls_842
+  - first:
+      213: -2747331529861893288
+    second: BG Walls_843
+  - first:
+      213: -3581130516997752813
+    second: BG Walls_844
+  - first:
+      213: 6855467250075233720
+    second: BG Walls_845
+  - first:
+      213: 2161212506849743928
+    second: BG Walls_846
+  - first:
+      213: -8068503265408039740
+    second: BG Walls_847
+  - first:
+      213: 2107022692753386814
+    second: BG Walls_848
+  - first:
+      213: -32871372339828570
+    second: BG Walls_849
+  - first:
+      213: -6058956525685132982
+    second: BG Walls_850
+  - first:
+      213: -1478158432493785125
+    second: BG Walls_851
+  - first:
+      213: 6955587606961032385
+    second: BG Walls_852
+  - first:
+      213: -5020589191046894033
+    second: BG Walls_853
+  - first:
+      213: 4896469263333027796
+    second: BG Walls_854
+  - first:
+      213: -3670928215635429912
+    second: BG Walls_855
+  - first:
+      213: -9207157918145982787
+    second: BG Walls_856
+  - first:
+      213: 3377028555338027928
+    second: BG Walls_857
+  - first:
+      213: 5616123114449593939
+    second: BG Walls_858
+  - first:
+      213: 6931682112483936021
+    second: BG Walls_859
+  - first:
+      213: -5903994783919253748
+    second: BG Walls_860
+  - first:
+      213: -1033170396356943935
+    second: BG Walls_861
+  - first:
+      213: -2943184824097026980
+    second: BG Walls_862
+  - first:
+      213: -2229396551555973758
+    second: BG Walls_863
+  - first:
+      213: 7240169842901040534
+    second: BG Walls_864
+  - first:
+      213: -7467338303994608644
+    second: BG Walls_865
+  - first:
+      213: 6160590732677854872
+    second: BG Walls_866
+  - first:
+      213: 7798933571216685930
+    second: BG Walls_867
+  - first:
+      213: 6642387565230822805
+    second: BG Walls_868
+  - first:
+      213: 6185574566334836770
+    second: BG Walls_869
+  - first:
+      213: 4221597908038404269
+    second: BG Walls_870
+  - first:
+      213: -6421810719372811686
+    second: BG Walls_871
+  - first:
+      213: -6432203345168139859
+    second: BG Walls_872
+  - first:
+      213: 6303069472045636537
+    second: BG Walls_873
+  - first:
+      213: 967788532486271788
+    second: BG Walls_874
+  - first:
+      213: -9031813905447842072
+    second: BG Walls_875
+  - first:
+      213: 6243566760739060535
+    second: BG Walls_876
+  - first:
+      213: -3075173883471019450
+    second: BG Walls_877
+  - first:
+      213: -3277408289669914445
+    second: BG Walls_878
+  - first:
+      213: 4047681616652142878
+    second: BG Walls_879
+  - first:
+      213: 2922543489317447554
+    second: BG Walls_880
+  - first:
+      213: 1020896807159129486
+    second: BG Walls_881
+  - first:
+      213: -574567731021285804
+    second: BG Walls_882
+  - first:
+      213: -5116984744450339067
+    second: BG Walls_883
+  - first:
+      213: 6476175487278451770
+    second: BG Walls_884
+  - first:
+      213: -3775993872434921476
+    second: BG Walls_885
+  - first:
+      213: 6228508676123907172
+    second: BG Walls_886
+  - first:
+      213: 6248041110607436199
+    second: BG Walls_887
+  - first:
+      213: 6917370733957056654
+    second: BG Walls_888
+  - first:
+      213: 5892171395092225854
+    second: BG Walls_889
+  - first:
+      213: -5120850192502774378
+    second: BG Walls_890
+  - first:
+      213: 5533125954713017947
+    second: BG Walls_891
+  - first:
+      213: -9086211979002091293
+    second: BG Walls_892
+  - first:
+      213: -5074594580932299991
+    second: BG Walls_893
+  - first:
+      213: -6252702784930541698
+    second: BG Walls_894
+  - first:
+      213: -1077196244093821496
+    second: BG Walls_895
+  - first:
+      213: -6900699955151354270
+    second: BG Walls_896
+  - first:
+      213: 6546290652864177739
+    second: BG Walls_897
+  - first:
+      213: -2007675097086233202
+    second: BG Walls_898
+  - first:
+      213: -6718741290358514115
+    second: BG Walls_899
+  - first:
+      213: -5665407252491548801
+    second: BG Walls_900
+  - first:
+      213: -6663830036913858109
+    second: BG Walls_901
+  - first:
+      213: -6072998500422106584
+    second: BG Walls_902
+  - first:
+      213: 6113214801266285604
+    second: BG Walls_903
+  - first:
+      213: -4971866012698621560
+    second: BG Walls_904
+  - first:
+      213: -4916303902012060175
+    second: BG Walls_905
+  - first:
+      213: -7199849371934133040
+    second: BG Walls_906
+  - first:
+      213: -8696539963013591690
+    second: BG Walls_907
+  - first:
+      213: -2275043213468000715
+    second: BG Walls_908
+  - first:
+      213: -6705363278224617129
+    second: BG Walls_909
+  - first:
+      213: 3075370017041420008
+    second: BG Walls_910
+  - first:
+      213: 532831037090764681
+    second: BG Walls_911
+  - first:
+      213: 8965382080894086244
+    second: BG Walls_912
+  - first:
+      213: 2196465370890768857
+    second: BG Walls_913
+  - first:
+      213: 5952495713417472674
+    second: BG Walls_914
+  - first:
+      213: -7439576041418876460
+    second: BG Walls_915
+  - first:
+      213: -692162486541594584
+    second: BG Walls_916
+  - first:
+      213: -3380220143686839591
+    second: BG Walls_917
+  - first:
+      213: -8509193755310749414
+    second: BG Walls_918
+  - first:
+      213: -1249740171450039402
+    second: BG Walls_919
+  - first:
+      213: -5531954889705168857
+    second: BG Walls_920
+  - first:
+      213: -8743954163925455807
+    second: BG Walls_921
+  - first:
+      213: -4511884196876106530
+    second: BG Walls_922
+  - first:
+      213: -3655193193751972928
+    second: BG Walls_923
+  - first:
+      213: -4151318592807721386
+    second: BG Walls_924
+  - first:
+      213: -5451393505041251316
+    second: BG Walls_925
+  - first:
+      213: -2437112694935450109
+    second: BG Walls_926
+  - first:
+      213: 4366261059591541736
+    second: BG Walls_927
+  - first:
+      213: 8819632466227474205
+    second: BG Walls_928
+  - first:
+      213: -4862030437013155104
+    second: BG Walls_929
+  - first:
+      213: 6060923332642582498
+    second: BG Walls_930
+  - first:
+      213: 6648649075847583943
+    second: BG Walls_931
+  - first:
+      213: -5292428751335470519
+    second: BG Walls_932
+  - first:
+      213: -2172892886740604357
+    second: BG Walls_933
+  - first:
+      213: -6341516605779782037
+    second: BG Walls_934
+  - first:
+      213: 7172375860559459521
+    second: BG Walls_935
+  - first:
+      213: 5845417564917144085
+    second: BG Walls_936
+  - first:
+      213: 5274455339753369722
+    second: BG Walls_937
+  - first:
+      213: -8856847551243881961
+    second: BG Walls_938
+  - first:
+      213: -906531448960035916
+    second: BG Walls_939
+  - first:
+      213: 3219931229731247999
+    second: BG Walls_940
+  - first:
+      213: 5079929212159276138
+    second: BG Walls_941
+  - first:
+      213: 7747534696576040220
+    second: BG Walls_942
+  - first:
+      213: -3900089465414954253
+    second: BG Walls_943
+  - first:
+      213: -104090453103986248
+    second: BG Walls_944
+  - first:
+      213: -2447949728767786809
+    second: BG Walls_945
+  - first:
+      213: -1530309743628775180
+    second: BG Walls_946
+  - first:
+      213: -7059439602777285874
+    second: BG Walls_947
+  - first:
+      213: 8629197869863400883
+    second: BG Walls_948
+  - first:
+      213: -2084064777418164558
+    second: BG Walls_949
+  - first:
+      213: -1431301691045587793
+    second: BG Walls_950
+  - first:
+      213: 1006755488394757296
+    second: BG Walls_951
+  - first:
+      213: -633420956432986193
+    second: BG Walls_952
+  - first:
+      213: -2151367424561956620
+    second: BG Walls_953
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BG Walls_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f4968e5544b6a0800000000000000
+      internalID: -6434441695318444462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe61c5d7c92d2f060800000000000000
+      internalID: 6985877541564978927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3272954670fb00c0800000000000000
+      internalID: -4608325402919538114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 267
+        width: 249
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e148beec47476440800000000000000
+      internalID: 4928986712928436710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 264
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9091d6f3291b6bfb0800000000000000
+      internalID: -4632319925016520439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09d9cb6edb203b0800000000000000
+      internalID: -5547662992262459202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c62a7d3849fe1a0800000000000000
+      internalID: -6778035620189934551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b605c7329a6990800000000000000
+      internalID: -7391935070148840229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc666a3cb3be3e40800000000000000
+      internalID: 5638141404529454267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e3ce69c810e98f0800000000000000
+      internalID: -531986002644025722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG Walls_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d428af83ff07010800000000000000
+      internalID: 1184727322184535384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

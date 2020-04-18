@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="1">
+		<talk>#1| I don’t feel like living anymore purrr.
+		#2| 1选项 + 2选项
+#1| I’m gonna do it purrr.
+#0| What happened man?
+#0| Tell me about it, maybe I can help.
+#1| You would not understand purrr!
+#1| My entire life has been a lie purrr!
+#1| You can not imagine how it feels when what you belief were overthrown-ed purrr.
+#0| Oh man, I’m really sorry.
+#0| I’m just a ghost, you know. I could only imagine your pain.
+#1| You just don’t f***ing get it do you purrr?
+#1| I use to believe that carrot is the best thing on earth, and yet it tasted like sh*t purrr!
+#0| Wait, what?
+#1| It’s disgusting! And too sweet! It’s like an orange potato soaked in sugary water purrr!
+#1| Ah man you made me think about it again! I just have to die now purrr!
+#0| (Oh god I have to help this thing.) </talk>
+
+	</item>
+	
+	<item ID="2">
+		<talk>#0|你好，我是主角2222
+		#1|我是帅哥。
+#0|你不是。
+#1|我是！
+#0|好的，你是。</talk>
+
+	</item>
+	
+	<item ID="3">
+		<talk>#0|你好，我是主角333
+		#1|我是帅哥。
+#0|你不是。
+#1|我是！
+#0|好的，你是。</talk>
+
+	</item>
+	
+</root>

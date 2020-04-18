@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - rabbit
+  - Trap
+  - Switch
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Collider
+  - Box
   - 
   - 
   - 
@@ -40,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3097890161
+    locked: 0
+  - name: Platforms
+    uniqueID: 1255954917
+    locked: 0
+  - name: Player
+    uniqueID: 3211136491
+    locked: 0
+  - name: Trap
+    uniqueID: 3077994915
     locked: 0

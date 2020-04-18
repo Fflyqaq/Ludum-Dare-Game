@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="101">
+		<talk></talk>
+
+	</item>
+	
+	<item ID="2">
+		<talk></talk>
+
+	</item>
+	
+	<item ID="3">
+		<talk>#0|你好，我是主角333
+		#1|我是帅哥。
+#0|你不是。
+#1|我是！
+#0|好的，你是。</talk>
+
+	</item>
+	
+</root>
