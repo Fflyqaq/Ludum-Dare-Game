@@ -12,6 +12,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region 移动相关
+    private int xDir;
+    private int yDir;
     private float xMoveDistance = 1;
     private float yMoveDistance = 1;
     private bool isCanMove = true;
@@ -20,12 +22,11 @@ public class Player : MonoBehaviour
     //Collider碰撞层，Box层，射线检测距离
     private LayerMask collLayerMask;
     private LayerMask boxLayerMask;
-    private float checkCollDistance = 1; 
-    private float checkBoxDistance = 0.5f; 
+    private float checkCollDistance = 1;
+    private float checkBoxDistance = 0.5f;
     private float checkBoxCollDistance = 2f;
 
-    //判断多个箱子时的偏移和检测距离
-    private float offect = 2f;
+    //判断多个箱子时的检测距离
     private float checkBoxBoxDistance = 0.3f;
     #endregion
 
@@ -39,180 +40,120 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (PlayerWSAD())
-        {
-            BattleSystem.Instance.ReduceRemainNum();
-            StartCoroutine(WaitPlayerMove());
-        }
+        PlayerInput();
+        PlayerWSAD();
     }
 
     IEnumerator WaitPlayerMove()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.3f);
         BattleSystem.Instance.RabbitMove();
     }
 
-    private bool PlayerWSAD()
+    private void PlayerInput()
     {
-        if (Input.GetKeyDown(KeyCode.W) && CheckIfCanMove(1) && CheckIfCanBoxAndPlayerMove(1) && isCanMove)
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            //Vector3 newPos = new Vector3(transform.position.x, transform.position.y + yMoveDistance, 0);
-            transform.position = new Vector3(transform.position.x, transform.position.y + yMoveDistance, 0);
-
-            CheckIfCanMoveBox(1);
-            return true;
+            xDir = 0;
+            yDir = 1;
         }
-        else if (Input.GetKeyDown(KeyCode.S) && CheckIfCanMove(2) && CheckIfCanBoxAndPlayerMove(2) && isCanMove)
+        if (Input.GetKeyDown(KeyCode.S))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - yMoveDistance, 0);
-
-            CheckIfCanMoveBox(2);
-            return true;
+            xDir = 0;
+            yDir = -1;
         }
-        else if (Input.GetKeyDown(KeyCode.A) && CheckIfCanMove(3) && CheckIfCanBoxAndPlayerMove(3) && isCanMove)
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            transform.position = new Vector3(transform.position.x - xMoveDistance, transform.position.y, 0);
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-
-            CheckIfCanMoveBox(3);
-            return true;
+            xDir = -1;
+            yDir = 0;
         }
-        else if (Input.GetKeyDown(KeyCode.D) && CheckIfCanMove(4) && CheckIfCanBoxAndPlayerMove(4) && isCanMove)
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            transform.position = new Vector3(transform.position.x + xMoveDistance, transform.position.y, 0);
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-
-            CheckIfCanMoveBox(4);
-            return true;
+            xDir = 1;
+            yDir = 0;
         }
-        return false;
+    }
+
+    private void PlayerWSAD()
+    {
+        if (xDir != 0 || yDir!=0)
+        {
+            CheckIfCatchRabbit(xDir, yDir);
+
+            if (CheckIfCanMove(xDir, yDir) && CheckIfCanBoxAndPlayerMove(xDir, yDir) && isCanMove)
+            {
+                transform.position = new Vector3(transform.position.x + xDir, transform.position.y + yDir, 0);
+                if (xDir !=0)
+                {
+                    transform.localScale = new Vector3(xDir * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                }
+
+                CheckIfCanMoveBox(xDir, yDir);
+
+                StartCoroutine(WaitPlayerMove());
+            }
+            xDir = 0;
+            yDir = 0;
+        }
+    }
+
+    private void CheckIfCatchRabbit(int x,int y)
+    {
+        //只有第三关可以抓兔子
+        if (BattleSystem.Instance.NowCheckPointNum == 3)
+        {
+            //抓住兔子，下一剧情
+            RaycastHit2D ray = Tools.RayCheck(transform.position, new Vector2(x, y), checkCollDistance, collLayerMask);
+            if (ray)
+            {
+                if (ray.transform.tag == "Rabbit")
+                {
+                    BattleSystem.Instance.ShowNextTalk();
+                }
+            }
+        }
     }
 
     /// <summary>
     /// 射线检测是否有Collider
     /// </summary>
     /// <param name="checkNum">1234为wsad方向</param>
-    private bool CheckIfCanMove(int checkNum)
+    private bool CheckIfCanMove(int x,int y)
     {
-        switch (checkNum)
-        {
-            case 1:
-                RaycastHit2D upRay = Tools.RayCheck(transform.position, Vector2.up, checkCollDistance, collLayerMask);
-                return upRay?false:true;
-            case 2:
-                RaycastHit2D downRay = Tools.RayCheck(transform.position, Vector2.down, checkCollDistance, collLayerMask);
-                return downRay ? false:true;
-            case 3:
-                RaycastHit2D leftRay = Tools.RayCheck(transform.position, Vector2.left, checkCollDistance, collLayerMask);
-                return leftRay ? false:true;
-            case 4:
-                RaycastHit2D rightRay = Tools.RayCheck(transform.position, Vector2.right, checkCollDistance, collLayerMask);
-                return rightRay ? false:true;
-            default:
-                return false;
-        }
+        RaycastHit2D ray = Tools.RayCheck(transform.position, new Vector2(x, y), checkCollDistance, collLayerMask);
+        return ray ? false : true;
     }
 
     /// <summary>
     /// 射线检测是否有箱子可以推
     /// </summary>
     /// <param name="checkNum">1234为wsad方向</param>
-    private bool CheckIfCanMoveBox(int checkNum)
+    private bool CheckIfCanMoveBox(int x, int y)
     {
-        switch (checkNum)
+        RaycastHit2D ray = Tools.RayCheck(transform.position, new Vector2(x, y), checkBoxDistance, boxLayerMask);
+        if (ray)
         {
-            case 1:
-                RaycastHit2D upRay = Tools.RayCheck(transform.position, Vector2.up, checkBoxDistance, boxLayerMask);
-                if (upRay)
-                {
-                    upRay.transform.GetComponent<Box>().BoxMove(0,1);
-                }
-                return upRay ? false : true;
-            case 2:
-                RaycastHit2D downRay = Tools.RayCheck(transform.position, Vector2.down, checkBoxDistance, boxLayerMask);
-                if (downRay)
-                {
-                    downRay.transform.GetComponent<Box>().BoxMove(0, -1);
-                }
-                return downRay ? false : true;
-            case 3:
-                RaycastHit2D leftRay = Tools.RayCheck(transform.position, Vector2.left, checkBoxDistance, boxLayerMask);
-                if (leftRay)
-                {
-                    leftRay.transform.GetComponent<Box>().BoxMove(-1, 0);
-                }
-                return leftRay ? false : true;
-            case 4:
-                RaycastHit2D rightRay = Tools.RayCheck(transform.position, Vector2.right, checkBoxDistance, boxLayerMask);
-                if (rightRay)
-                {
-                    rightRay.transform.GetComponent<Box>().BoxMove(1, 0);
-                }
-                return rightRay ? false : true;
-            default:
-                return false;
+            ray.transform.GetComponent<Box>().BoxMove(x, y);
         }
+        return ray ? false : true;
     }
 
     /// <summary>
     /// 射线检测箱子后面是否不能移动
     /// </summary>
-    private bool CheckIfCanBoxAndPlayerMove(int checkNum)
+    private bool CheckIfCanBoxAndPlayerMove(int x,int y)
     {
-        //只有有箱子，箱子后面还要有Coll的时候才不能移动
-        switch (checkNum)
-        {
-            case 1:
-                RaycastHit2D upRay = Tools.RayCheck(transform.position, Vector2.up, checkCollDistance, boxLayerMask);
-                if (!upRay)
-                    return true;
-                break;
-            case 2:
-                RaycastHit2D downRay = Tools.RayCheck(transform.position, Vector2.down, checkCollDistance, boxLayerMask);
-                if (!downRay)
-                    return true;
-                break;
-            case 3:
-                RaycastHit2D leftRay = Tools.RayCheck(transform.position, Vector2.left, checkCollDistance, boxLayerMask);
-                if (!leftRay)
-                    return true;
-                break;
-            case 4:
-                RaycastHit2D rightRay = Tools.RayCheck(transform.position, Vector2.right, checkCollDistance, boxLayerMask);
-                if (!rightRay)
-                    return true;
-                break;
-        }
+        RaycastHit2D ray = Tools.RayCheck(transform.position, new Vector2(x, y), checkCollDistance, boxLayerMask);
+        if (!ray)
+            return true;
 
         //走到这就有箱子，再判断有没有Coll
 
-        switch (checkNum)
-        {
-            case 1:
-                RaycastHit2D upRay1 = Tools.RayCheck(transform.position, Vector2.up, checkBoxCollDistance, collLayerMask);
-                RaycastHit2D upRay2 = Tools.RayCheck(transform.position + new Vector3(0, 2, 0), Vector2.up, checkBoxBoxDistance, boxLayerMask);
-                if (!upRay1 && !upRay2)
-                    return true;
-                break;
-            case 2:
-                RaycastHit2D downRay1 = Tools.RayCheck(transform.position, Vector2.down, checkBoxCollDistance, collLayerMask);
-                RaycastHit2D downRay2 = Tools.RayCheck(transform.position + new Vector3(0, -2, 0), Vector2.down, checkBoxBoxDistance, boxLayerMask);
-                if (!downRay1 && !downRay2)
-                    return true;
-                break;
-            case 3:
-                RaycastHit2D leftRay1 = Tools.RayCheck(transform.position, Vector2.left, checkBoxCollDistance, collLayerMask);
-                RaycastHit2D leftRay2 = Tools.RayCheck(transform.position + new Vector3(-2,0,0), Vector2.left, checkBoxBoxDistance, boxLayerMask);
-                if (!leftRay1 && !leftRay2)
-                    return true;
-                break;
-            case 4:
-                RaycastHit2D rightRay1 = Tools.RayCheck(transform.position, Vector2.right, checkBoxCollDistance, collLayerMask);
-                RaycastHit2D rightRay2 = Tools.RayCheck(transform.position + new Vector3(2, 0, 0), Vector2.right, checkBoxBoxDistance, boxLayerMask);
-                if (!rightRay1 && !rightRay2)
-                    return true;
-                break;
-        }
+        RaycastHit2D ray1 = Tools.RayCheck(transform.position, new Vector2(x, y), checkBoxCollDistance, collLayerMask);
+        RaycastHit2D ray2 = Tools.RayCheck(transform.position + new Vector3(x * 2, y * 2, 0), new Vector2(x, y), checkBoxBoxDistance, boxLayerMask);
+        if (!ray1 && !ray2)
+            return true;
+
 
         //到这表示有箱子有Coll，不能移动
         return false;
@@ -225,7 +166,12 @@ public class Player : MonoBehaviour
         {
             Debug.Log("你死了");
             Destroy(gameObject);
+
+            BattleSystem.Instance.IsLose = true;
         }
+
+
+
 
         ////开关
         //if (collision.gameObject.tag == "Switch")

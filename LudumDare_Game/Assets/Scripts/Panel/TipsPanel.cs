@@ -27,5 +27,6 @@ public class TipsPanel : PanelRoot
     private void OnCloseBtnClick()
     {
         SetPanelState(false);
+        audioService.PlayUIAudio(ConstAttribute.AudioUIClick);
     }
 }

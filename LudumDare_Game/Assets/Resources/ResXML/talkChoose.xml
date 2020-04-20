@@ -5,57 +5,170 @@
 #0| ...
 #1| ...
 #0| ...
-#1| 你不是要让我独处的吗噗叽！？
-#0| 我总不能放着你不管吧？
-#1| 你可以的。
-#0| 我想我不行。
-#1| 你可以的。
-#0| 那你得答应我你会好好*活着*。
-#1| 追的上我再说，乌龟！
+#1| Aren't you going to leave me alone!?
+#0| I cant' just leave you here.
+#1| Yes you can
+#0| I think not.
+#1| YES, YOU, CAN. purr.
+#0| Then you have to promise me to stay *alive*.
+#1| Catch me if you can, turtle.
+
  </talk>
 
 	</item>
 	
 	<item ID="1002">
-		<talk>#1| 为什么不行？
-		#0| 我总不能放着你不管吧？
-#1| 你可以的。
-#0| 我想我不行。
-#1| 你可以的。
-#0| 那你得答应我你会好好*活着*。
-#1| 追的上我再说，乌龟！
+		<talk>#1| Why not？
+#0| I cant' just leave you here.
+#1| Yes you can
+#0| I think not.
+#1| YES, YOU, CAN. purr.
+#0| Then you have to promise me to stay *alive*.
+#1| Catch me if you can, turtle.
 </talk>
 
 	</item>
 	
 	<item ID="2001">
-		<talk>
-		#1| 没问题，那如果你不介意的话我就要去...处理个人事务了。
-#0| ...不是自杀吧？
-#1| 不...是？
-#0| 你答应过我的哦。
-#1| 我才没有答应你噗叽！我是美须爵士9527，不是兔子噗叽!
-#0| 你就是。
-#0| 我认得出来。
-#1| 你胡说！我，我长得这么平平无奇...
-#1| 所以才没有人喜欢我噗叽...
-#1| 我受够了噗叽！
-#0| （哦天呐它又来了。）
+		<talk>#1| No problem. Now if you may excuse me, I have some... personal matter to take care of.
+#0| ...Which is not suicide, right?
+#1| No...it isn't?
+#0| You promised me yesterday.
+#1| No I didn't purr! I'm Sir Handsome Mustache, not...
+#0| Yes you are.
+#0| I can tell.
+#1| No, it's nonsense! I, I look so ordinarily dull...
+#1| And that's why nobody likes me purrr!
+#1| I had enough purrr!
+#0| (Oh god here we go again.)
 		</talk>
 	</item>
 	
 	<item ID="2002">
 		<talk>
-		#1| 你就是认错了，我是美须爵士，不是...
-#0| 不是...?
-#1| 不是...兔子...
-#0| 你就是。
-#0| 我认得出来。
-#1| 你胡说！我，我长得这么平平无奇...
-#1| 所以才没有人喜欢我噗叽...
-#1| 我受够了噗叽！
-#0| （哦天呐它又来了。）
+#1| Yes you do. I'm Sir Handsome Mustache, not...
+#0| Not..?
+#1| Not...rabbit...
+#0| Yes you are.
+#0| I can tell.
+#1| No, it's nonsense! I, I look so ordinarily dull...
+#1| And that's why nobody likes me purrr!
+#1| I had enough purrr!
+#0| (Oh god here we go again.)
 		</talk>
+	</item>
+	
+	<item ID="3001">
+		<talk>#0| (Really? You gonna run here?)
+#0| (Just keep playing, please——)
+#0| (Fine..)
+#0| (Err...)
+#2|Today’s weather is pretty god eh?-3003+I’m glad that you are here.-3004</talk>
+	</item>
+	
+	<item ID="3002">
+		<talk>#0|(Ok, here I go.)
+#0| (But what’s this oddly familiarity? )
+#2|Today’s weather is pretty god eh?-3003+I’m glad that you are here.-3004</talk>
+	</item>
+	
+	<item ID="3003">
+		<talk>#1| Really? Weather topics?
+#0| (It’s not very effective.)
+#1| Don’t tell me that you call me out just to talk about the weather purrr.
+#0| I want to know the reason behind your actions.
+#0| You mentioned about *other problems* yesterday, right?
+#0| (Let’ me think.)
+#2|Straight forward.-3005+Let’s not rush it.-3006</talk>
+	</item>
+	
+	<item ID="3004">
+		<talk>#1|Errr。。。I’m glad too。。。#0|(It’s very effective.)
+#1|	You have something to say right purrr?
+#0| I want to know the reason behind your actions.
+#0| You mentioned about *other problems* yesterday, right?
+#0| (Let’ me think.)
+#2|Straight forward.-3005+Let’s not rush it.-3006</talk>
+	</item>
+	
+	<item ID="3005">
+		<talk>#0| I guess I’m pretty annoying, but I really want to know why.
+#1| ...Fine, fine. I’ll tell you.
+#0| (It’s very effective.)
+#1| If, you can catch me purrr!
+#0| (Not again...)</talk>
+	</item>
+	
+	<item ID="3006">
+		<talk>#0| Well you see, I’m working on a individual essay about suicides now...
+#1| You essay includes rabbits too?
+#0| Well... (It’s not very effective.)
+#1| Fine, but only for academic purposes.
+#1| If, you can catch me purrr!
+#0| (Not again...)</talk>
+	</item>
+	
+	<item ID="5001">
+		<talk>#1| You are not me.
+#1| You have no right to decide my life or death.
+#1| I appreciate your kindness, but living or not is my own decision.
+#0| Even if death is painful and boring?
+#1| I don't care.</talk>
+	</item>
+	
+	<item ID="5002">
+		<talk>#1| This is my life.
+#1| I’m the one determines it’s value.
+#1| Even If you managed to save me, it won't bring back your own life.
+#0| Even if death is painful and boring?
+#1| I don't care.</talk>
+	</item>
+	
+	<item ID="5003">
+		<talk>#0| Life itself has no purpose or meaning.
+#0| Just like how we came to this world, it doesn't need any purposes.
+#1| What is it that lives for?
+#0| For nothing, being alive does not require that kind of extra spices.
+#1| Maybe, but I've made up my mind.
+#1| Time to finish it all.</talk>
+	</item>
+	
+	<item ID="5004">
+		<talk>#0| There are a lot of things in the world that rabbits and ghosts don't know. We can look for them together.
+#1| Then I'm afraid you have to find other rabbits.
+#1| Time to finish it all.</talk>
+	</item>
+	
+	<item ID="5005">
+		<talk>#1| Why?
+#0| I have, other reasons.
+#0| I can't bear to lose you. Because I like you.
+#1| Really? I mean, we only met for less than two days.
+#1| Although we did experience a lot...
+#0| Ghosts have no heart and can’t feel pain.
+#0| But when I see you standing under that guillotine, I can.
+#1| ... Okay. Guess you would stop me If I try.
+#1| But I haven't promised you anything yet.
+#1| Maybe we can start with a date?
+#1| I'm starving.
+#0| Anything particular in your mind?
+#1| How about carrots?</talk>
+	</item>
+	
+	<item ID="5006">
+		<talk>#1| And that's what I do.
+#0| I have, other reasons.
+#0| I can't bear to lose you. Because I like you.
+#1| Really? I mean, we only met for less than two days.
+#1| Although we did experience a lot...
+#0| Ghosts have no heart and can’t feel pain.
+#0| But when I see you standing under that guillotine, I can.
+#1| ... Okay. Guess you would stop me If I try.
+#1| But I haven't promised you anything yet.
+#1| Maybe we can start with a date?
+#1| I'm starving.
+#0| Anything particular in your mind?
+#1| How about carrots?</talk>
 	</item>
 	
 	

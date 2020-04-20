@@ -40,7 +40,9 @@ public class AudioService : MonoBehaviour
     public void PlayUIAudio(string audioName)
     {
         AudioClip audio = ResService.Instance.LoadAudio("ResAudio/" + audioName, true);
-        uiAudioSource.clip = audio;
-        uiAudioSource.Play();
+        //uiAudioSource.clip = audio;
+        //uiAudioSource.Play();
+
+        uiAudioSource.PlayOneShot(audio);
     }
 }

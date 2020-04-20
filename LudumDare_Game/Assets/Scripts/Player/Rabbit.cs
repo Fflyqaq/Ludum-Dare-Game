@@ -1,4 +1,4 @@
-/****************************************************
+	/****************************************************
     文件：Rabbit.cs
     作者：Ffly
     邮箱: jitengfeiwork@gmail.com
@@ -10,34 +10,34 @@ using UnityEngine;
 
 public class Rabbit : MonoBehaviour 
 {
+	//取消被风吹后兔子移动
+
 	private float moveDistance = 1;
 
 	private int xDir;
 	private int yDir;
 
-	private LayerMask layerMask = 1 << 8;
+	private LayerMask collLayerMask = 1 << 8;
+	private LayerMask boxLayerMask = 1 << 9;
+	private float collLayerMaskDistance = 0.2f;
+	private float boxLayerMaskDistance = 0.7f;
 
-	private bool isWindBlow = false;
-	private float windStrength;
-	private Vector3 targetPos;
+	private Animator anim;
+
 
 	private void Start()
 	{
-		SetMoveDir(-1, 0);
+		anim = GetComponent<Animator>();
 	}
 
 	private void Update()
 	{
-        RaycastHit2D forwardRay = Tools.RayCheck(transform.position + new Vector3(xDir, yDir,0), new Vector2(xDir,yDir), 0.2f, layerMask);
-		if (forwardRay)
-		{
-			//Debug.Log(forwardRay.collider.gameObject.name);
-			SetMoveDir(-xDir, -yDir);
-		}
+        RaycastHit2D forwardCollRay = Tools.RayCheck(transform.position + new Vector3(xDir, yDir,0), new Vector2(xDir,yDir), collLayerMaskDistance, collLayerMask);
 
-		if (isWindBlow)
+		//遇见coll，改变方向
+		if (forwardCollRay)
 		{
-			WindBlow(targetPos);
+			SetMoveDir(-xDir, -yDir);
 		}
 	}
 
@@ -45,32 +45,30 @@ public class Rabbit : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Trap")
 		{
-			Debug.Log("你死了");
+			collision.GetComponent<TrapRoot>().TriggerSwitch();
 			BattleSystem.Instance.IsLose = true;
-			Destroy(gameObject);
+
+			anim.SetBool("Die",true);
+			Destroy(gameObject, 2f);
 		}
 	}
-
+	/// <summary>
+	/// player移动 rabbit移动
+	/// </summary>
 	public void Move()
 	{
-		transform.position += new Vector3(xDir,yDir,0) * moveDistance;
-	}
+		bool isCanMove = true;
 
-	public void WindBlowed(float strength)
-	{
-		isWindBlow = true;
-		windStrength = strength;
-
-		targetPos = transform.position + new Vector3(xDir, yDir, 0) * windStrength;
-	}
-
-	private void WindBlow(Vector3 targetPos)
-	{
-		transform.position = Vector3.Lerp(transform.position, targetPos, 4f);
-		if (Mathf.Abs(transform.position.x-targetPos.x)<=0.001 && Mathf.Abs(transform.position.y - targetPos.y) <= 0.001)
+		//前面是否有箱子,箱子是否能移动
+		RaycastHit2D forwardBoxRay = Tools.RayCheck(transform.position, new Vector2(xDir, yDir), boxLayerMaskDistance, boxLayerMask);
+		if (forwardBoxRay)
 		{
-			transform.position = targetPos;
-			isWindBlow = false;
+			isCanMove = forwardBoxRay.transform.GetComponent<Box>().BoxMove(xDir, yDir);
+		}
+
+		if (isCanMove)
+		{
+			transform.position += new Vector3(xDir, yDir, 0) * moveDistance;
 		}
 	}
 

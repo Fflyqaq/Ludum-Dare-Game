@@ -6,6 +6,8 @@
     功能：游戏内系统
 *****************************************************/
 
+using System;
+using System.Collections;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -26,9 +28,6 @@ public class BattleSystem : SystemRoot
     private int nowCheckPointNum;
     public int NowCheckPointNum { get { return nowCheckPointNum; } }
     private MapData mapData = null;
-    private int remainNum = 10;
-    public int RemainNum{ get { return remainNum; } }
-
     private MapManager mapManager;
 
     //这一关的第几段信息
@@ -53,11 +52,21 @@ public class BattleSystem : SystemRoot
             WinThisCheckPoint(nowCheckPointNum + 1);
             isWin = false;
         }
-        if (isLose || remainNum <= 0)
+        if (isLose)
         {
-            LoseThisCheckPoint();
-            isLose = false;
+            StopPlayerMove();
+            StartCoroutine(DelayTime(1.8f,()=> 
+            {
+                LoseThisCheckPoint();
+                isLose = false;
+            }));
         }
+    }
+
+    IEnumerator DelayTime(float second,Action action)
+    {
+        yield return new WaitForSeconds(second);
+        action();
     }
 
     /// <summary>
@@ -74,6 +83,15 @@ public class BattleSystem : SystemRoot
 
 
             ShowNextTalk();
+
+            if (sceneNum == 5)
+            {
+                AudioService.Instance.PlayBGMusic(ConstAttribute.AudioBGM5);
+            }
+            else
+            {
+                AudioService.Instance.PlayBGMusic(ConstAttribute.AudioBGM1_4);
+            }
         });
 
         talkID = 1;
@@ -86,8 +104,7 @@ public class BattleSystem : SystemRoot
     public void InitMapData()
     {
         mapData = ResService.Instance.GetMapData(nowCheckPointNum);
-        remainNum = mapData.checkPointNum;
-        gamePanel.SetRemainNum(remainNum);
+        gamePanel.SetWinText(mapData.winCondition);
 
         if (player == null)
         {
@@ -99,6 +116,7 @@ public class BattleSystem : SystemRoot
         {
             rabbit = ResService.Instance.LoadPrefab(ConstAttribute.rabbitPrefabPath, true).GetComponent<Rabbit>();
             rabbit.transform.position = mapData.rabbitBornPos;
+            rabbit.GetComponent<Rabbit>().SetMoveDir((int)mapData.rabbitBornRota.x, (int)mapData.rabbitBornRota.y);
         }
     }
 
@@ -134,10 +152,14 @@ public class BattleSystem : SystemRoot
     public void StopPlayerMove()
     {
         player.StopPlayerMove();
+        mapManager.CloseAllArrows();
+        //Time.timeScale = 0;
     }
     public void ContinuePlayerMove()
     {
         player.ContinuePlayerMove();
+        mapManager.OpenAllArrows();
+        //Time.timeScale = 1;
     }
 
     public void RabbitMove()
@@ -149,19 +171,6 @@ public class BattleSystem : SystemRoot
     }
 
     /// <summary>
-    /// 移动时回合数减少
-    /// </summary>
-    /// <param name="reduceNum"></param>
-    public void ReduceRemainNum(int reduceNum = 1)
-    {
-        remainNum -= reduceNum;
-        gamePanel.SetRemainNum(remainNum);
-
-        mapManager.CheckArrowIsCanShoot();
-
-    }
-
-    /// <summary>
     /// 本关win
     /// </summary>
     private void WinThisCheckPoint(int checkPointNum)
@@ -169,16 +178,23 @@ public class BattleSystem : SystemRoot
         int maxCheckPoint = PlayerPrefs.GetInt(ConstAttribute.maxCheckPointDBName);
         if (checkPointNum > maxCheckPoint)
         {
-            Debug.LogError("超过最大关卡");
+            //通关
+            StopPlayerMove();
+            winPanel.SetPanelState();
+            CloseTalkAndGamePanel();
             return;
         }
-        string sceneName = Tools.UseNumCalculateSceneName(checkPointNum);
-        //10000 to 11000
-        //把第一个0替换为1
+        //10000 to 11000      11000-11000  要看本关是第几关
         string str = PlayerPrefs.GetString(ConstAttribute.checkPointDBName);
-        Regex regex = new Regex("0");
-        str = regex.Replace(str, "1", 1);
+        char[] cTemp = str.ToCharArray();
+        cTemp[checkPointNum - 1] = '1';
+        str = new string(cTemp);
+
+        //Regex regex = new Regex("0");
+        //str = regex.Replace(str, "1", 1);
+
         PlayerPrefs.SetString(ConstAttribute.checkPointDBName, str);
+
 
         StopPlayerMove();
         winPanel.SetPanelState();
@@ -194,4 +210,8 @@ public class BattleSystem : SystemRoot
         CloseTalkAndGamePanel();
     }
 
+    public void GetWinCondition()
+    {
+
+    }
 }

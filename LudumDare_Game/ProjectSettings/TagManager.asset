@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - rabbit
   - Trap
   - Switch
   - MapManager
   - Box
+  - Rabbit
+  - Wind
+  - Platforms
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - 
   - Collider
   - Box
-  - 
+  - Trap
   - 
   - 
   - 
@@ -52,9 +54,9 @@ TagManager:
   - name: Platforms
     uniqueID: 1255954917
     locked: 0
-  - name: Player
-    uniqueID: 3211136491
-    locked: 0
   - name: Trap
     uniqueID: 3077994915
+    locked: 0
+  - name: Player
+    uniqueID: 3211136491
     locked: 0

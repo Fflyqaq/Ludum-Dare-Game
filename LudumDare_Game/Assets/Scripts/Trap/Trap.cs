@@ -8,17 +8,36 @@
 
 using UnityEngine;
 
-public class Trap : MonoBehaviour 
+public class Trap : TrapRoot
 {
+	private BoxCollider2D collTrap;
+
 	private void Start(){
-		
+		collTrap = GetComponent<BoxCollider2D>();
+		TrapStateChange();
 	}
-	private void Update(){
-		
+	
+
+	public override void TriggerSwitch()
+	{
+		isCanWork = !isCanWork;
+
+		TrapStateChange();
 	}
 
-	public void TriggerTrap()
+
+	private void TrapStateChange()
 	{
-		gameObject.SetActive(false);
+		if (isCanWork)
+		{
+			collTrap.enabled = true;
+			GetComponent<SpriteRenderer>().sprite = ResService.Instance.LoadSprite(ConstAttribute.trapOnSpritePath, true);
+
+		}
+		else
+		{
+			collTrap.enabled = false;
+			GetComponent<SpriteRenderer>().sprite = ResService.Instance.LoadSprite(ConstAttribute.trapOffSpritePath, true);
+		}
 	}
 }

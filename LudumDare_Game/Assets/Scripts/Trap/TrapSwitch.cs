@@ -6,11 +6,14 @@
     功能：开关，可以打开对应陷阱
 *****************************************************/
 
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TrapSwitch : MonoBehaviour 
 {
-	public Trap trap; 
+	public List<TrapRoot> traps = new List<TrapRoot>();
+
+	private bool isOpen = false;
 
 	private void Start(){
 		
@@ -19,19 +22,38 @@ public class TrapSwitch : MonoBehaviour
 		
 	}
 
+	/// <summary>
+	/// 打开开关，改变陷阱
+	/// </summary>
 	public void OpenSwitch()
 	{
-		trap.TriggerTrap();
+		foreach (var item in traps)
+		{
+			item.TriggerSwitch();
+		}
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		//player
-		if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
+		if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box" || collision.gameObject.tag == "Rabbit")
 		{
 			OpenSwitch();
 
-			//PlayGameSystem.Instance.ShowNextTalk();
+			isOpen = !isOpen;
+			ChangeSprite(isOpen);
+		}
+	}
+
+	private void ChangeSprite(bool open)
+	{
+		if (open)
+		{
+			GetComponent<SpriteRenderer>().sprite = ResService.Instance.LoadSprite(ConstAttribute.switchOnSpritePath, true);
+		}
+		else
+		{
+			GetComponent<SpriteRenderer>().sprite = ResService.Instance.LoadSprite(ConstAttribute.switchOffSpritePath, true);
 		}
 	}
 }

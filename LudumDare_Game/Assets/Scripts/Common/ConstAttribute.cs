@@ -21,6 +21,7 @@ public class ConstAttribute
     public const string rabbitSpritePath = "Player/rabbit_icon";
     public const string playerPrefabPath = "PrefabPlayer/Player";
     public const string rabbitPrefabPath = "PrefabPlayer/Rabbit";
+    public const string arrowPrefabPath = "PrefabTrap/Arrow";
 
     public const string sceneGame = "-Game";
 
@@ -29,5 +30,17 @@ public class ConstAttribute
     public const string maxCheckPointDBName = "MaxCheckPoint";
     public const int maxCheckPointDBMsg = 5;
 
-    public const string AudioBGMBegin = "begin";
+    #region audio地址
+    public const string AudioBGM1_4 = "bgm1_4"; 
+    public const string AudioBGM5 = "bgm5"; 
+    public const string AudioUIClick = "btnClick"; 
+    #endregion
+
+    #region Sprite地址
+    public const string switchOnSpritePath = "Sprite/UI/Trap/sc_0001s_0001_switch_on"; 
+    public const string switchOffSpritePath = "Sprite/UI/Trap/sc_0001s_0000_switch_off";
+
+    public const string trapOnSpritePath = "Sprite/UI/Trap/sc_0000s_0001_tp2";
+    public const string trapOffSpritePath = "Sprite/UI/Trap/sc_0000s_0001_tp4";
+    #endregion
 }

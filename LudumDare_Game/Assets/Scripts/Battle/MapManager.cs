@@ -11,29 +11,61 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour 
 {
+	public static MapManager Instance;
+
 	public List<ShootArrow> shootArrowList = new List<ShootArrow>();
 
-	
 	private void Start(){
-		
+		Instance = this;
 	}
 	private void Update(){
 		
 	}
 
+	public void CheckIfPassGame()
+	{
+		if (shootArrowList.Count > 0)
+		{
+			bool isPass = true;
+			foreach (var item in shootArrowList)
+			{
+				if (item.isCanShoot == true)
+				{
+					isPass = false;
+					break;
+				}
+			}
+
+			if (isPass)
+			{
+				BattleSystem.Instance.ShowNextTalk();
+			}
+		}
+	}
+
+	public void CloseAllArrows()
+	{
+		if (shootArrowList.Count > 0)
+		{
+			foreach (var item in shootArrowList)
+			{
+				item.CloseArrow();
+			}
+		}
+	}
+	public void OpenAllArrows()
+	{
+		if (shootArrowList.Count > 0)
+		{
+			foreach (var item in shootArrowList)
+			{
+				item.OpenArrow();
+			}
+		}
+	}
+
 	public void InitMap(MapData mapData)
 	{
 		
-	}
-
-	public void CheckArrowIsCanShoot()
-	{
-		foreach (ShootArrow shootArrow in shootArrowList)
-		{
-			if (shootArrow != null)
-			{
-				shootArrow.ReduceCountDown();
-			}
-		}
 	}
 }

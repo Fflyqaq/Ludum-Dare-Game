@@ -8,6 +8,13 @@
 
 using UnityEngine;
 
+public enum Tags
+{
+    Player,
+    Box,
+    Rabbit
+}
+
 public class BaseData : MonoBehaviour 
 {
 
@@ -25,8 +32,9 @@ public class MapData
 {
     public int ID;
     public string sceneName;
-    public int checkPointNum;
     public Vector3 playerBornPos;
     public Vector3 rabbitBornPos;
-
+    //初始移动方向
+    public Vector2 rabbitBornRota;
+    public string winCondition;
 }

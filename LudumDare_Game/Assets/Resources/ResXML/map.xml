@@ -2,20 +2,45 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<item ID="1">
 		<sceneName>01-Game</sceneName>
-		<checkPointNum>20</checkPointNum>
-		<playerBornPos>1.5,0.5,0</playerBornPos>
-		<rabbitBornPos>0.5,3.5,0</rabbitBornPos>
-
+		<playerBornPos>1.5,-1.472,0</playerBornPos>
+		<rabbitBornPos>0.505,1.532,0</rabbitBornPos>
+		<rabbitBornRota>-1,0</rabbitBornRota>
+		<winCondition>Keep the rabbit alive</winCondition>
 	</item>
 	
 	<item ID="2">
 		<sceneName>02-Game</sceneName>
-		<checkPointNum>20</checkPointNum>
-		<playerBornPos>-3.5,-1.50,-0.5</playerBornPos>
-		<rabbitBornPos>0.5,0.5,0</rabbitBornPos>
-
+		<playerBornPos>1.499,-2.479,0</playerBornPos>
+		<rabbitBornPos>2.51,1.535,0</rabbitBornPos>
+		<rabbitBornRota>-1,0</rabbitBornRota>
+		<winCondition>Keep the rabbit alive
+Turn off all the traps</winCondition>		
 	</item>
 	
-
+<item ID="3">
+		<sceneName>03-Game</sceneName>
+		<playerBornPos>-3.498,-3.481,0</playerBornPos>
+		<rabbitBornPos>-2.479,-1.479,0</rabbitBornPos>
+		<rabbitBornRota>1,0</rabbitBornRota>
+		<winCondition>Keep the rabbit alive
+Catch the rabbit!</winCondition>
+	</item>
+	
+	<item ID="4">
+		<sceneName>04-Game</sceneName>
+		<playerBornPos>7.493,1.508,0</playerBornPos>
+		<rabbitBornPos>-5.484,-2.468,0</rabbitBornPos>
+		<rabbitBornRota>1,0</rabbitBornRota>
+		<winCondition>Keep the rabbit alive
+Catch the rabbit!</winCondition>
+	</item>
+	
+	<item ID="5">
+		<sceneName>05-Game</sceneName>
+		<playerBornPos>-0.509,-3.502,0</playerBornPos>
+		<rabbitBornPos>-0.493,-0.482,0</rabbitBornPos>
+		<rabbitBornRota>0,1</rabbitBornRota>
+		<winCondition>Keep the rabbit alive</winCondition>
+	</item>
 	
 </root>

@@ -212,9 +212,6 @@ public class ResService : MonoBehaviour
                         case "sceneName":
                             mapData.sceneName = ele.InnerText;
                             break;
-                        case "checkPointNum":
-                            mapData.checkPointNum = int.Parse(ele.InnerText);
-                            break;
                         case "playerBornPos":
                             {
                                 string[] temp = ele.InnerText.Split(',');
@@ -225,6 +222,17 @@ public class ResService : MonoBehaviour
                             {
                                 string[] temp = ele.InnerText.Split(',');
                                 mapData.rabbitBornPos = new Vector3(float.Parse(temp[0]), float.Parse(temp[1]), float.Parse(temp[2]));
+                            }
+                            break;
+                        case "rabbitBornRota":
+                            {
+                                string[] temp = ele.InnerText.Split(',');
+                                mapData.rabbitBornRota = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+                            }
+                            break;
+                        case "winCondition":
+                            {
+                                mapData.winCondition = ele.InnerText;
                             }
                             break;
                     }

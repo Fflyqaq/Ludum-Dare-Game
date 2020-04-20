@@ -85,13 +85,14 @@
     <Compile Include="Assets\Scripts\System\EnterExitSystem.cs" />
     <Compile Include="Assets\Scripts\System\SystemRoot.cs" />
     <Compile Include="Assets\Scripts\Trap\AddInfluenceToTrap.cs" />
+    <Compile Include="Assets\Scripts\Trap\Arrow.cs" />
     <Compile Include="Assets\Scripts\Trap\Box.cs" />
     <Compile Include="Assets\Scripts\Trap\ShootArrow.cs" />
     <Compile Include="Assets\Scripts\Trap\Trap.cs" />
+    <Compile Include="Assets\Scripts\Trap\TrapRoot.cs" />
     <Compile Include="Assets\Scripts\Trap\TrapSwitch.cs" />
     <Compile Include="Assets\Scripts\Trap\Wind.cs" />
     <None Include="Assets\Resources\ResXML\map.xml" />
-    <None Include="Assets\Resources\ResXML\rabbitMove.xml" />
     <None Include="Assets\Resources\ResXML\talk.xml" />
     <None Include="Assets\Resources\ResXML\talkChoose.xml" />
     <Reference Include="Unity.Timeline.Editor">

@@ -6,6 +6,7 @@
     功能：对话界面
 *****************************************************/
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,9 +26,11 @@ public class TalkPanel : PanelRoot
     private int checkPointNum;
     private int talkID;
     private TalkData talkData;
-    //对话信息和下标
+    //一段对话信息、当前段的一句信息和下标
     private string[] talkInfo;
+    private string talkInfoOne;
     private int index;
+    private bool isTalkAnimPlay = false;
 
     private void Start()
     {
@@ -55,6 +58,7 @@ public class TalkPanel : PanelRoot
     {
         //组合成XML中的格式
         int id = int.Parse(checkPointNum + "0" + talkID);
+        Debug.Log(id);
         this.talkID = id;
         talkData = resService.GetTalkData(id);
         if (talkData != null)
@@ -70,40 +74,74 @@ public class TalkPanel : PanelRoot
     private void SetTalk()
     {
         string[] talkArr = talkInfo[index].Split('|');
+        talkInfoOne = talkArr[1];
         if (talkArr[0] == "0")
         {
             SetSprite(imgIcon, ConstAttribute.playerSpritePath);
-            SetText(txtTalk, talkArr[1]);
+
+            StartCoroutine(SetTextAnim(talkInfoOne));
         }
         else if(talkArr[0] == "1")
         {
             SetSprite(imgIcon, ConstAttribute.rabbitSpritePath);
-            SetText(txtTalk, talkArr[1]);
+
+            StartCoroutine(SetTextAnim(talkInfoOne));
         }
         else if (talkArr[0] == "2")
         {
             bgChoose.SetActive(true);
-            Choose(talkArr[1]);
+            Choose(talkInfoOne);
         }
+    }
+
+    private void SetTextNoAnim(string talk)
+    {
+        isTalkAnimPlay = false;
+        txtTalk.text = talk;
+    }
+
+    IEnumerator SetTextAnim(string talk)
+    {
+        isTalkAnimPlay = true;
+        string temp = "";
+        txtTalk.text = "";
+        for (int i = 0; i < talk.Length; i++)
+        {
+            if (isTalkAnimPlay)
+            {
+                temp += talk[i];
+                txtTalk.text = temp;
+                yield return new WaitForSeconds(0.06f);
+            }
+        }
+        isTalkAnimPlay = false;
     }
 
     private void OnNextBtnClick()
     {
-        index += 1;
-
-        if (index >= talkInfo.Length)
+        if (isTalkAnimPlay)
         {
-            //对话结束
-            SetPanelState(false);
-            battleSystem.ContinuePlayerMove();
-            battleSystem.gamePanel.SetPanelState();
-
-            CheckIfPassGame();
+            SetTextNoAnim(talkInfoOne);
         }
         else
         {
-            SetTalk();
+            index += 1;
+
+            if (index >= talkInfo.Length)
+            {
+                //对话结束
+                SetPanelState(false);
+                battleSystem.ContinuePlayerMove();
+                battleSystem.gamePanel.SetPanelState();
+
+                CheckIfPassGame();
+            }
+            else
+            {
+                SetTalk();
+            }
         }
+        
     }
 
     #region 选择对话

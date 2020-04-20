@@ -24,16 +24,19 @@ public class LoginPanel : PanelRoot
     {
         base.InitPanel();
        
-        audioService.PlayBGMusic(ConstAttribute.AudioBGMBegin);
+        audioService.PlayBGMusic(ConstAttribute.AudioBGM1_4);
     }
 
     private void OnEnterChoosePanelBtnClick()
     {
         EnterExitSystem.Instance.ShowChoosePanel();
         SetPanelState(false);
+
+        audioService.PlayUIAudio(ConstAttribute.AudioUIClick);
     }
     private void OnShowTipsPanelBtnClick()
     {
         enterExitSystem.ShowTipsPanel();
+        audioService.PlayUIAudio(ConstAttribute.AudioUIClick);
     }
 }

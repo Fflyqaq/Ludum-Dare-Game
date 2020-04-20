@@ -10,6 +10,10 @@ using UnityEngine;
 
 public class Box : MonoBehaviour 
 {
+	private LayerMask collLayerMask = 1 << 8;
+	private LayerMask trapLayerMask = 1 << 10;
+	private float collLayerMaskDistance = 0.7f;
+	private float trapLayerMaskDistance = 0.7f;
 
 	private void Start(){
 		
@@ -18,17 +22,19 @@ public class Box : MonoBehaviour
 		
 	}
 
-	public void BoxMove(float x, float y)
+	public bool BoxMove(float x, float y)
 	{
-		transform.position = new Vector3(transform.position.x + x, transform.position.y + y, 0);
-	}
-
-
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if (collision.gameObject.tag == "Switch")
+		//箱子要移动的位置不能有其他coll和陷阱
+		RaycastHit2D forwardCollRay = Tools.RayCheck(transform.position, new Vector2(x, y), collLayerMaskDistance, collLayerMask);
+		RaycastHit2D forwardTrapRay = Tools.RayCheck(transform.position, new Vector2(x, y), trapLayerMaskDistance, trapLayerMask);
+		if (!forwardCollRay && !forwardTrapRay)
 		{
-			collision.GetComponent<TrapSwitch>().OpenSwitch();
+			transform.position = new Vector3(transform.position.x + x, transform.position.y + y, 0);
+			return true;
 		}
+
+		return false;
 	}
+
+
 }

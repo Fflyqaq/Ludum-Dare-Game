@@ -11,8 +11,8 @@ using UnityEngine.UI;
 
 public class GamePanel : PanelRoot 
 {
-    public Text txtRemainNum;
     public Button btnExit;
+    public Text txtWin;
 
     private void Start()
     {
@@ -31,9 +31,8 @@ public class GamePanel : PanelRoot
         EnterExitSystem.Instance.endGamePanel.SetPanelState();
     }
 
-    public void SetRemainNum(int remainNum)
+    public void SetWinText(string winStr)
     {
-        txtRemainNum.text = "Remaining steps: " + remainNum.ToString();
+        txtWin.text = winStr;
     }
-
 }
