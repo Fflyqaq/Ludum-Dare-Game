@@ -63,26 +63,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Battle\MapManager.cs" />
     <Compile Include="Assets\Scripts\Common\BaseData.cs" />
     <Compile Include="Assets\Scripts\Common\ConstAttribute.cs" />
     <Compile Include="Assets\Scripts\Common\GameRoot.cs" />
     <Compile Include="Assets\Scripts\Common\Tools.cs" />
-    <Compile Include="Assets\Scripts\Panel\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\Panel\ChooseCheckPointPanel.cs" />
     <Compile Include="Assets\Scripts\Panel\EndGamePanel.cs" />
     <Compile Include="Assets\Scripts\Panel\GamePanel.cs" />
     <Compile Include="Assets\Scripts\Panel\LoginPanel.cs" />
+    <Compile Include="Assets\Scripts\Panel\LosePanel.cs" />
     <Compile Include="Assets\Scripts\Panel\PanelRoot.cs" />
     <Compile Include="Assets\Scripts\Panel\TalkPanel.cs" />
+    <Compile Include="Assets\Scripts\Panel\TipsPanel.cs" />
+    <Compile Include="Assets\Scripts\Panel\WinPanel.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Rabbit.cs" />
-    <Compile Include="Assets\Scripts\Resvice\ResService.cs" />
+    <Compile Include="Assets\Scripts\Service\AudioService.cs" />
+    <Compile Include="Assets\Scripts\Service\ResService.cs" />
+    <Compile Include="Assets\Scripts\System\BattleSystem.cs" />
     <Compile Include="Assets\Scripts\System\EnterExitSystem.cs" />
-    <Compile Include="Assets\Scripts\System\PlayGameSystem.cs" />
     <Compile Include="Assets\Scripts\System\SystemRoot.cs" />
+    <Compile Include="Assets\Scripts\Trap\AddInfluenceToTrap.cs" />
     <Compile Include="Assets\Scripts\Trap\Box.cs" />
+    <Compile Include="Assets\Scripts\Trap\ShootArrow.cs" />
     <Compile Include="Assets\Scripts\Trap\Trap.cs" />
     <Compile Include="Assets\Scripts\Trap\TrapSwitch.cs" />
+    <Compile Include="Assets\Scripts\Trap\Wind.cs" />
+    <None Include="Assets\Resources\ResXML\map.xml" />
+    <None Include="Assets\Resources\ResXML\rabbitMove.xml" />
     <None Include="Assets\Resources\ResXML\talk.xml" />
     <None Include="Assets\Resources\ResXML\talkChoose.xml" />
     <Reference Include="Unity.Timeline.Editor">

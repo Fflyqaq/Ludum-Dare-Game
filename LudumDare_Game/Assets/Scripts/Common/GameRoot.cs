@@ -13,21 +13,26 @@ public class GameRoot : MonoBehaviour
 {
     public static GameRoot Instance = null;
 
-
     private void Start()
     {
         Instance = this;
         DontDestroyOnLoad(this);
 
         Init();
+
+        //初始化关卡信息
+        PlayerPrefs.SetString(ConstAttribute.checkPointDBName, ConstAttribute.checkPointDBMsg);
+        PlayerPrefs.SetInt(ConstAttribute.maxCheckPointDBName, ConstAttribute.maxCheckPointDBMsg);
     }
 
     private void Init()
     {
         ResService resService = GetComponent<ResService>();
         resService.InitSvc();
+        AudioService audioService = GetComponent<AudioService>();
+        audioService.InitSvc();
 
-        PlayGameSystem gameSystem = GetComponent<PlayGameSystem>();
+        BattleSystem gameSystem = GetComponent<BattleSystem>();
         gameSystem.InitSys();
         EnterExitSystem loginExitSystem = GetComponent<EnterExitSystem>();
         loginExitSystem.InitSys();

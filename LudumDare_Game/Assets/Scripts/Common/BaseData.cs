@@ -17,5 +17,16 @@ public class TalkData
 {
     public int ID;
     public string talk; //对话信息
+}
+
+
+
+public class MapData
+{
+    public int ID;
+    public string sceneName;
+    public int checkPointNum;
+    public Vector3 playerBornPos;
+    public Vector3 rabbitBornPos;
 
 }

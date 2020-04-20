@@ -712,8 +712,8 @@ MonoBehaviour:
   txtTalk: {fileID: 1330590968413885651}
   imgIcon: {fileID: 1330590969297089309}
   bgChoose: {fileID: 486893882}
-  choose1: {fileID: 702447047}
-  choose2: {fileID: 72998009}
+  chooseGO1: {fileID: 702447047}
+  chooseGO2: {fileID: 72998009}
 --- !u!1 &1330590969329611756
 GameObject:
   m_ObjectHideFlags: 0

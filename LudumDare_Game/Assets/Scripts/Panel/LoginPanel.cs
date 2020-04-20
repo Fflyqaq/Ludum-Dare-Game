@@ -12,17 +12,28 @@ using UnityEngine.UI;
 public class LoginPanel : PanelRoot
 {
     public Button btnEnterGame;
+    public Button btnTips;
+
+    private void Start()
+    {
+        btnEnterGame.onClick.AddListener(OnEnterChoosePanelBtnClick);
+        btnTips.onClick.AddListener(OnShowTipsPanelBtnClick);
+    }
 
     protected override void InitPanel()
     {
         base.InitPanel();
-
-        btnEnterGame.onClick.AddListener(OnEnterChoosePanelBtnClick);
+       
+        audioService.PlayBGMusic(ConstAttribute.AudioBGMBegin);
     }
 
     private void OnEnterChoosePanelBtnClick()
     {
         EnterExitSystem.Instance.ShowChoosePanel();
         SetPanelState(false);
+    }
+    private void OnShowTipsPanelBtnClick()
+    {
+        enterExitSystem.ShowTipsPanel();
     }
 }

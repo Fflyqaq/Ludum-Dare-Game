@@ -13,6 +13,8 @@ public class ConstAttribute
     public const string loginSceneName = "Scene_Login";
 
     public const string talkDataPath = "ResXML/talk";
+    public const string talkChooseDataPath = "ResXML/talkChoose";
+    public const string mapDataPath = "ResXML/map";
 
 
     public const string playerSpritePath = "Player/player_icon";
@@ -21,7 +23,11 @@ public class ConstAttribute
     public const string rabbitPrefabPath = "PrefabPlayer/Rabbit";
 
     public const string sceneGame = "-Game";
-    
 
+    public const string checkPointDBName = "CheckPoint";
+    public const string checkPointDBMsg = "10000";
+    public const string maxCheckPointDBName = "MaxCheckPoint";
+    public const int maxCheckPointDBMsg = 5;
 
+    public const string AudioBGMBegin = "begin";
 }

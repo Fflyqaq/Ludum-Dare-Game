@@ -1,40 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<item ID="1">
-		<talk>#1| I don’t feel like living anymore purrr.
-		#2| 1选项 + 2选项
-#1| I’m gonna do it purrr.
-#0| What happened man?
-#0| Tell me about it, maybe I can help.
-#1| You would not understand purrr!
-#1| My entire life has been a lie purrr!
-#1| You can not imagine how it feels when what you belief were overthrown-ed purrr.
-#0| Oh man, I’m really sorry.
-#0| I’m just a ghost, you know. I could only imagine your pain.
-#1| You just don’t f***ing get it do you purrr?
-#1| I use to believe that carrot is the best thing on earth, and yet it tasted like sh*t purrr!
-#0| Wait, what?
-#1| It’s disgusting! And too sweet! It’s like an orange potato soaked in sugary water purrr!
-#1| Ah man you made me think about it again! I just have to die now purrr!
-#0| (Oh god I have to help this thing.) </talk>
+	<item ID="101">
+		<talk>#1| 不想活了噗叽。
+#1| 生活对我来说已经失去了意义，我从此之后再无悲喜噗叽。
+#0| 怎么了，老兄？
+#0| 告诉我，或许我可以帮帮你。
+#1| 你根本不明白！
+#1| 我的生活就是一场巨大的骗局噗叽！
+#1| 你无法想象当你深信的常识被推翻时的痛苦噗叽！
+#0| 噢天呐，老兄，我很抱歉！
+#0|	我只是一只幽灵，我只能想象你的痛苦。
+#1| 你根本不懂噗叽！
+#1| 我深信不疑胡萝卜是世界上最好的佳肴，可它居然那么难吃噗叽！
+#0| 等等，什么？
+#1| 太难吃了！也太甜了！像掺了糖水的橘色土豆噗叽！
+#1|	噢你害我又想起来了，可恶！ 我只能去死了噗叽！
+#0| （天我得帮帮这个傻东西。）
+ </talk>
 
 	</item>
 	
-	<item ID="2">
-		<talk>#0|你好，我是主角2222
-		#1|我是帅哥。
-#0|你不是。
-#1|我是！
-#0|好的，你是。</talk>
+	<item ID="102">
+		<talk>#1| 别烦我了噗叽！
+#0| 嘿，你先冷静点...
+#1| 就让我一个人独处一会不行吗噗叽！
+#2| 1当然-1001+2不行-1002
+</talk>
 
 	</item>
 	
-	<item ID="3">
-		<talk>#0|你好，我是主角333
-		#1|我是帅哥。
-#0|你不是。
-#1|我是！
-#0|好的，你是。</talk>
+	<item ID="103">
+		<talk>#0| 看来乌龟又赢了呢。
+#1|	让我走噗叽！
+#0| 那你得答应我不能因为一根胡萝卜自杀。
+#1| 我要是不呢？
+#0| （凝视）
+#1| ...
+#0| （坚定的凝视）
+#1| ...
+#0| （坚定不移愚公移山海枯石烂般的凝视）
+#1| ...
+#1| 行——吧——那我不自杀总行了吧。
+#0| 你保证吗？
+#1| 我保证——
+#0| 好，乖孩子。
+#1| ...你根本就不懂。
+#0| ...
+#1| 我要走了噗叽。
+#0| 回家小心哦。再见。
+#1| ...拜
+</talk>
+
+	</item>
+	
+	<item ID="201">
+		<talk>#0| （又回到了老地方，那只兔子该不会在这吧？）
+#0|	哦我的天你怎么还在这？
+#1| 你...认错兔了。噗...啾。
+#1| 我是...美须爵士9527...噗啾。
+#2| 1好吧，不好意思-2001，我认错了。+ 2额...我想我没有-2002。
+</talk>
 
 	</item>
 	

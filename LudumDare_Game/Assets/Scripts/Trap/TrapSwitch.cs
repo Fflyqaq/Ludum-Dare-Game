@@ -23,4 +23,15 @@ public class TrapSwitch : MonoBehaviour
 	{
 		trap.TriggerTrap();
 	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		//player
+		if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
+		{
+			OpenSwitch();
+
+			//PlayGameSystem.Instance.ShowNextTalk();
+		}
+	}
 }

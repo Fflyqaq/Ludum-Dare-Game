@@ -7,6 +7,7 @@
 *****************************************************/
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EndGamePanel : PanelRoot 
@@ -14,22 +15,32 @@ public class EndGamePanel : PanelRoot
     public Button btnCancel;
     public Button btnYes;
 
+    private void Start()
+    {
+        btnCancel.onClick.AddListener(OnCancelBtnClick);
+        btnYes.onClick.AddListener(OnYesBtnClick);
+    }
 
     protected override void InitPanel()
     {
         base.InitPanel();
 
-        btnCancel.onClick.AddListener(OnCancelBtnClick);
-        btnYes.onClick.AddListener(OnYesBtnClick);
+        battleSystem.StopPlayerMove();
     }
 
     private void OnCancelBtnClick()
     {
         SetPanelState(false);
+        battleSystem.ContinuePlayerMove();
     }
 
     private void OnYesBtnClick()
     {
-
+        resService.AsyncLoadScene(ConstAttribute.loginSceneName, () =>
+         {
+             SetPanelState(false);
+             enterExitSystem.GameBackToLoginPanel();
+             battleSystem.GameBackToLoginPanel();
+         });
     }
 }

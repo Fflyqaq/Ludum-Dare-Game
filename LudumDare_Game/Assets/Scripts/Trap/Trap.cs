@@ -19,6 +19,6 @@ public class Trap : MonoBehaviour
 
 	public void TriggerTrap()
 	{
-		Debug.Log("陷阱没了");
+		gameObject.SetActive(false);
 	}
 }

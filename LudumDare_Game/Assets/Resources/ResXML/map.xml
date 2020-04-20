@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item ID="1">
+		<sceneName>01-Game</sceneName>
+		<checkPointNum>20</checkPointNum>
+		<playerBornPos>1.5,0.5,0</playerBornPos>
+		<rabbitBornPos>0.5,3.5,0</rabbitBornPos>
+
+	</item>
+	
+	<item ID="2">
+		<sceneName>02-Game</sceneName>
+		<checkPointNum>20</checkPointNum>
+		<playerBornPos>-3.5,-1.50,-0.5</playerBornPos>
+		<rabbitBornPos>0.5,0.5,0</rabbitBornPos>
+
+	</item>
+	
+
+	
+</root>

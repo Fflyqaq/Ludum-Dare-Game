@@ -12,8 +12,9 @@ using UnityEngine.UI;
 public class PanelRoot : MonoBehaviour 
 {
     protected ResService resService = null;
+    protected AudioService audioService = null;
     protected EnterExitSystem enterExitSystem = null;
-    protected PlayGameSystem gameSystem = null;
+    protected BattleSystem battleSystem = null;
 
     public void SetPanelState(bool isActive = true)
     {
@@ -33,8 +34,9 @@ public class PanelRoot : MonoBehaviour
     protected virtual void InitPanel()
     {
         resService = ResService.Instance;
+        audioService = AudioService.Instance;
         enterExitSystem = EnterExitSystem.Instance;
-        gameSystem = PlayGameSystem.Instance;
+        battleSystem = BattleSystem.Instance;
     }
     /// <summary>
     /// 离开界面时的清理工作

@@ -15,6 +15,7 @@ public class EnterExitSystem : SystemRoot
     public LoginPanel loginPanel;
     public ChooseCheckPointPanel chooseCheckPointPanel;
     public EndGamePanel endGamePanel;
+    public TipsPanel tipsPanel;
 
     public override void InitSys()
     {
@@ -34,9 +35,18 @@ public class EnterExitSystem : SystemRoot
         chooseCheckPointPanel.SetPanelState(false);
     }
 
-    public void BackToLoginPanel()
+    public void ChooseBackToLoginPanel()
     {
         loginPanel.SetPanelState();
-        chooseCheckPointPanel.SetPanelState(false);
+    }
+
+    public void ShowTipsPanel()
+    {
+        tipsPanel.SetPanelState();
+    }
+
+    public void GameBackToLoginPanel()
+    {
+        loginPanel.SetPanelState();
     }
 }

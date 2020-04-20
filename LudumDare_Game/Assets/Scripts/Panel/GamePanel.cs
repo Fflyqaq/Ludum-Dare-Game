@@ -14,15 +14,26 @@ public class GamePanel : PanelRoot
     public Text txtRemainNum;
     public Button btnExit;
 
+    private void Start()
+    {
+        btnExit.onClick.AddListener(OnExitBtnClick);
+    }
+
     protected override void InitPanel()
     {
         base.InitPanel();
 
-        btnExit.onClick.AddListener(OnExitBtnClick);
+        //battleSystem.InitMapData();
     }
 
     private void OnExitBtnClick()
     {
         EnterExitSystem.Instance.endGamePanel.SetPanelState();
     }
+
+    public void SetRemainNum(int remainNum)
+    {
+        txtRemainNum.text = "Remaining steps: " + remainNum.ToString();
+    }
+
 }
