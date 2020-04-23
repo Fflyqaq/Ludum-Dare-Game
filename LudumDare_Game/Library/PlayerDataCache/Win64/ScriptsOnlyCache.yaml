@@ -887,7 +887,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 538e99b7923f05c7f0f965cf02738694
+      Hash: 69f2aebde648655da8a343f63f5a17a2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AddInfluenceToTrap
@@ -1038,4 +1038,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/03-Game.unity
   - Assets/Scenes/04-Game.unity
   - Assets/Scenes/05-Game.unity
-  playerPath: F:/Rabbit Guillotine/Rabbit Guillotine.exe
+  playerPath: F:/LB46Game/windowEnglish/Rabbit Guillotine.exe

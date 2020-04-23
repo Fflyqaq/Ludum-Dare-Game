@@ -108,7 +108,15 @@ public class Player : MonoBehaviour
             {
                 if (ray.transform.tag == "Rabbit")
                 {
-                    BattleSystem.Instance.ShowNextTalk();
+                    //这关玩过
+                    if (Tools.CheckIfPlayedThisCheckPoint(BattleSystem.Instance.NowCheckPointNum))
+                    {
+                        BattleSystem.Instance.IsWin = true;
+                    }
+                    else
+                    {
+                        BattleSystem.Instance.ShowNextTalk();
+                    }
                 }
             }
         }

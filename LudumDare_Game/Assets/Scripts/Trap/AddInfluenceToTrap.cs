@@ -10,39 +10,56 @@ using UnityEngine;
 
 public class AddInfluenceToTrap : MonoBehaviour 
 {
-	//一个开关最多只触发一次对话剧情
+	//一个开关最多只触发一次
 	private bool isTriggered = false;
+	//是否是触发游戏结束的
+	public bool isTriggerEndGame = false;
 
 	public Tags tag1;
 	public Tags tag2;
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		//被触发时候会显示对话，只会显示一次
-		if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box" || collision.gameObject.tag == "Rabbit")
-		{
-			if (isTriggered == false)
-			{
-				BattleSystem.Instance.ShowNextTalk();
-				isTriggered = true;
+		//这关是否玩过
+		bool isPlayed = false;
+		isPlayed = Tools.CheckIfPlayedThisCheckPoint(BattleSystem.Instance.NowCheckPointNum);
 
-				MapManager.Instance.CheckIfPassGame();
+
+		//玩过这关(只有玩过，endgame才有用)
+			//结束游戏
+			//什么都不发生
+		//没玩过
+			//正常
+		if (isPlayed)
+		{
+			if (collision.gameObject.tag == tag1.ToString() || collision.gameObject.tag == tag2.ToString())
+			{
+				if (isTriggered == false)
+				{
+					if (isTriggerEndGame)
+					{
+						BattleSystem.Instance.IsWin = true;
+					}
+					else
+					{
+
+
+					}
+				}
 			}
 		}
+		else
+		{
+			if (collision.gameObject.tag == tag1.ToString() || collision.gameObject.tag == tag2.ToString())
+			{
+				if (isTriggered == false)
+				{
+					BattleSystem.Instance.ShowNextTalk();
+					isTriggered = true;
 
-		//string tagStr1 = tag1.ToString();
-		//string tagStr2 = tag2.ToString();
-
-		////被触发时候会显示对话，只会显示一次
-		//if (collision.gameObject.tag == tagStr1 || collision.gameObject.tag == tagStr2)
-		//{
-		//	if (isTriggered == false)
-		//	{
-		//		BattleSystem.Instance.ShowNextTalk();
-		//		isTriggered = true;
-
-		//		MapManager.Instance.CheckIfPassGame();
-		//	}
-		//}
+					MapManager.Instance.CheckIfPassGame();
+				}
+			}
+		}
 	}
 }

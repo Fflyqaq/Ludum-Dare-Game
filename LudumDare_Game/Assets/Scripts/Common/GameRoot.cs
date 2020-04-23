@@ -20,9 +20,17 @@ public class GameRoot : MonoBehaviour
 
         Init();
 
-        //初始化关卡信息
-        PlayerPrefs.SetString(ConstAttribute.checkPointDBName, ConstAttribute.checkPointDBMsg);
-        PlayerPrefs.SetInt(ConstAttribute.maxCheckPointDBName, ConstAttribute.maxCheckPointDBMsg);
+        //PlayerPrefs.SetString(ConstAttribute.checkPointDBName, ConstAttribute.checkPointDBMsg);
+        //PlayerPrefs.SetInt(ConstAttribute.maxCheckPointDBName, ConstAttribute.maxCheckPointDBMsg);
+
+        //初始化关卡信息，再次启动，不再重新初始化
+        if (PlayerPrefs.GetInt("IsSettedCheckPoint") == 0)
+        {
+            PlayerPrefs.SetString(ConstAttribute.checkPointDBName, ConstAttribute.checkPointDBMsg);
+            PlayerPrefs.SetInt(ConstAttribute.maxCheckPointDBName, ConstAttribute.maxCheckPointDBMsg);
+
+            PlayerPrefs.SetInt("IsSettedCheckPoint", 1);
+        }
     }
 
     private void Init()

@@ -85,4 +85,22 @@ public class Tools : MonoBehaviour
 
         return maxCanPlay;
     }
+
+    /// <summary>
+    /// 判断是否玩过这关
+    /// </summary>
+    /// <param name="checkPointNum"></param>
+    /// <returns></returns>
+    public static bool CheckIfPlayedThisCheckPoint(int checkPointNum)
+    {
+        //下一关没开
+        if (PlayerPrefs.GetString(ConstAttribute.checkPointDBName).Length==ConstAttribute.maxCheckPointDBMsg ||  PlayerPrefs.GetString(ConstAttribute.checkPointDBName)[checkPointNum] != '1')
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }

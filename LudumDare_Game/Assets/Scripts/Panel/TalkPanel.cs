@@ -41,9 +41,6 @@ public class TalkPanel : PanelRoot
     {
         base.InitPanel();
 
-        //获取这关的talk信息
-        //GetNextInfoAndPlay();
-
         //每段对话从头开始读取
         index = 1;
 

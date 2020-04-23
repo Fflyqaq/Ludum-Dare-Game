@@ -18,9 +18,6 @@ public class MapManager : MonoBehaviour
 	private void Start(){
 		Instance = this;
 	}
-	private void Update(){
-		
-	}
 
 	public void CheckIfPassGame()
 	{
@@ -36,9 +33,11 @@ public class MapManager : MonoBehaviour
 				}
 			}
 
+			//通过
 			if (isPass)
 			{
-				BattleSystem.Instance.ShowNextTalk();
+				//BattleSystem.Instance.ShowNextTalk();
+				BattleSystem.Instance.IsWin = true;
 			}
 		}
 	}

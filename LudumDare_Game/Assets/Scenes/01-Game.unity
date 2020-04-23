@@ -4546,6 +4546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76ef6eac9c199614eb6141b40af79c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTriggerEndGame: 1
   tag1: 1
   tag2: 0
 --- !u!1 &1724896125
@@ -4935,6 +4936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76ef6eac9c199614eb6141b40af79c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTriggerEndGame: 0
   tag1: 1
   tag2: 0
 --- !u!1001 &2121360971

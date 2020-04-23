@@ -81,8 +81,10 @@ public class BattleSystem : SystemRoot
 
             InitMapData();
 
-
-            ShowNextTalk();
+            if (!Tools.CheckIfPlayedThisCheckPoint(sceneNum))
+            {
+                ShowNextTalk();
+            }
 
             if (sceneNum == 5)
             {
@@ -92,6 +94,8 @@ public class BattleSystem : SystemRoot
             {
                 AudioService.Instance.PlayBGMusic(ConstAttribute.AudioBGM1_4);
             }
+
+            gamePanel.SetPanelState();
         });
 
         talkID = 1;
@@ -208,10 +212,5 @@ public class BattleSystem : SystemRoot
         StopPlayerMove();
         losePanel.SetPanelState();
         CloseTalkAndGamePanel();
-    }
-
-    public void GetWinCondition()
-    {
-
     }
 }
